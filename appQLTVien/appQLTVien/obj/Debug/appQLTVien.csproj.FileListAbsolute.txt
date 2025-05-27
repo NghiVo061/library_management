@@ -1,0 +1,10 @@
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\bin\Debug\appQLTVien.exe.config
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\bin\Debug\appQLTVien.exe
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\bin\Debug\appQLTVien.pdb
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.Properties.Resources.resources
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.exe
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.pdb
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.AdminForm.resources
