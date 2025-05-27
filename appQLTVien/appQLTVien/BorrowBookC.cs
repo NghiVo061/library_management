@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace appQLTVien
 {
-    public partial class Form1 : Form
+    public partial class BorrowBookC : UserControl
     {
-        public Form1()
+        public BorrowBookC()
         {
             InitializeComponent();
         }

@@ -25,13 +25,13 @@ namespace appQLTVien
         private System.Windows.Forms.Button btnAddMember;
         private System.Windows.Forms.Button btnEditMember;
         private System.Windows.Forms.Button btnDeleteMember;
-        private System.Windows.Forms.Button btnViewMember;
+        private System.Windows.Forms.Button btnExportMember;
         private System.Windows.Forms.Button btnBorrowBook;
         private System.Windows.Forms.Button btnReturnBook;
-        private System.Windows.Forms.Button btnViewBorrow;
+        private System.Windows.Forms.Button btnExportBorrow;
         private System.Windows.Forms.Button btnExtendBorrow;
         private System.Windows.Forms.Button btnAddPenalty;
-        private System.Windows.Forms.Button btnViewPenalty;
+        private System.Windows.Forms.Button btnExportPenalty;
 
         protected override void Dispose(bool disposing)
         {
@@ -60,13 +60,13 @@ namespace appQLTVien
             this.btnAddMember = new System.Windows.Forms.Button();
             this.btnEditMember = new System.Windows.Forms.Button();
             this.btnDeleteMember = new System.Windows.Forms.Button();
-            this.btnViewMember = new System.Windows.Forms.Button();
+            this.btnExportMember = new System.Windows.Forms.Button();
             this.btnBorrowBook = new System.Windows.Forms.Button();
             this.btnReturnBook = new System.Windows.Forms.Button();
-            this.btnViewBorrow = new System.Windows.Forms.Button();
+            this.btnExportBorrow = new System.Windows.Forms.Button();
             this.btnExtendBorrow = new System.Windows.Forms.Button();
             this.btnAddPenalty = new System.Windows.Forms.Button();
-            this.btnViewPenalty = new System.Windows.Forms.Button();
+            this.btnExportPenalty = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelContent = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
@@ -89,13 +89,13 @@ namespace appQLTVien
             this.panelMenu.Controls.Add(this.btnAddMember);
             this.panelMenu.Controls.Add(this.btnEditMember);
             this.panelMenu.Controls.Add(this.btnDeleteMember);
-            this.panelMenu.Controls.Add(this.btnViewMember);
+            this.panelMenu.Controls.Add(this.btnExportMember);
             this.panelMenu.Controls.Add(this.btnBorrowBook);
             this.panelMenu.Controls.Add(this.btnReturnBook);
-            this.panelMenu.Controls.Add(this.btnViewBorrow);
+            this.panelMenu.Controls.Add(this.btnExportBorrow);
             this.panelMenu.Controls.Add(this.btnExtendBorrow);
             this.panelMenu.Controls.Add(this.btnAddPenalty);
-            this.panelMenu.Controls.Add(this.btnViewPenalty);
+            this.panelMenu.Controls.Add(this.btnExportPenalty);
 
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
@@ -184,7 +184,7 @@ namespace appQLTVien
             this.btnExportBook.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnExportBook.Size = new System.Drawing.Size(230, 40);
             this.btnExportBook.TabIndex = 9;
-            this.btnExportBook.Text = "  Xuất sách";
+            this.btnExportBook.Text = "  Xuất thông tin sách";
             this.btnExportBook.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnExportBook.Visible = false;
             this.btnExportBook.Click += new System.EventHandler(this.btnExportBook_Click);
@@ -259,7 +259,7 @@ namespace appQLTVien
             this.btnEditMember.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnEditMember.Size = new System.Drawing.Size(230, 40);
             this.btnEditMember.TabIndex = 12;
-            this.btnEditMember.Text = "  Sửa thành viên";
+            this.btnEditMember.Text = "  Chỉnh Sửa thông tin thành viên";
             this.btnEditMember.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEditMember.Visible = false;
             this.btnEditMember.Click += new System.EventHandler(this.btnEditMember_Click);
@@ -282,23 +282,23 @@ namespace appQLTVien
             this.btnDeleteMember.Visible = false;
             this.btnDeleteMember.Click += new System.EventHandler(this.btnDeleteMember_Click);
             // 
-            // btnViewMember
+            // btnExportMember
             // 
-            this.btnViewMember.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
-            this.btnViewMember.FlatAppearance.BorderSize = 0;
-            this.btnViewMember.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(220)))), ((int)(((byte)(200)))));
-            this.btnViewMember.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnViewMember.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnViewMember.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(100)))), ((int)(((byte)(90)))));
-            this.btnViewMember.Location = new System.Drawing.Point(20, 600);
-            this.btnViewMember.Name = "btnViewMember";
-            this.btnViewMember.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnViewMember.Size = new System.Drawing.Size(230, 40);
-            this.btnViewMember.TabIndex = 14;
-            this.btnViewMember.Text = "  Xem thành viên";
-            this.btnViewMember.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnViewMember.Visible = false;
-            this.btnViewMember.Click += new System.EventHandler(this.btnViewMember_Click);
+            this.btnExportMember.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
+            this.btnExportMember.FlatAppearance.BorderSize = 0;
+            this.btnExportMember.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(220)))), ((int)(((byte)(200)))));
+            this.btnExportMember.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExportMember.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnExportMember.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(100)))), ((int)(((byte)(90)))));
+            this.btnExportMember.Location = new System.Drawing.Point(20, 600);
+            this.btnExportMember.Name = "btnViewMember";
+            this.btnExportMember.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnExportMember.Size = new System.Drawing.Size(230, 40);
+            this.btnExportMember.TabIndex = 14;
+            this.btnExportMember.Text = "  Xuất thông tin thành viên";
+            this.btnExportMember.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExportMember.Visible = false;
+            this.btnExportMember.Click += new System.EventHandler(this.btnExportMember_Click);
 
             // btnManageBookBorrow
             // 
@@ -333,7 +333,7 @@ namespace appQLTVien
             this.btnBorrowBook.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnBorrowBook.Size = new System.Drawing.Size(230, 40);
             this.btnBorrowBook.TabIndex = 15;
-            this.btnBorrowBook.Text = "  Mượn sách";
+            this.btnBorrowBook.Text = "  Ghi nhận mượn sách";
             this.btnBorrowBook.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBorrowBook.Visible = false;
             this.btnBorrowBook.Click += new System.EventHandler(this.btnBorrowBook_Click);
@@ -351,28 +351,28 @@ namespace appQLTVien
             this.btnReturnBook.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnReturnBook.Size = new System.Drawing.Size(230, 40);
             this.btnReturnBook.TabIndex = 16;
-            this.btnReturnBook.Text = "  Trả sách";
+            this.btnReturnBook.Text = "  Ghi nhận trả sách";
             this.btnReturnBook.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReturnBook.Visible = false;
             this.btnReturnBook.Click += new System.EventHandler(this.btnReturnBook_Click);
             // 
-            // btnViewBorrow
+            // btnExportBorrow
             // 
-            this.btnViewBorrow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
-            this.btnViewBorrow.FlatAppearance.BorderSize = 0;
-            this.btnViewBorrow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(220)))), ((int)(((byte)(200)))));
-            this.btnViewBorrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnViewBorrow.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnViewBorrow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(100)))), ((int)(((byte)(90)))));
-            this.btnViewBorrow.Location = new System.Drawing.Point(20, 720);
-            this.btnViewBorrow.Name = "btnViewBorrow";
-            this.btnViewBorrow.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnViewBorrow.Size = new System.Drawing.Size(230, 40);
-            this.btnViewBorrow.TabIndex = 17;
-            this.btnViewBorrow.Text = "  Xem mượn sách";
-            this.btnViewBorrow.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnViewBorrow.Visible = false;
-            this.btnViewBorrow.Click += new System.EventHandler(this.btnViewBorrow_Click);
+            this.btnExportBorrow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
+            this.btnExportBorrow.FlatAppearance.BorderSize = 0;
+            this.btnExportBorrow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(220)))), ((int)(((byte)(200)))));
+            this.btnExportBorrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExportBorrow.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnExportBorrow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(100)))), ((int)(((byte)(90)))));
+            this.btnExportBorrow.Location = new System.Drawing.Point(20, 720);
+            this.btnExportBorrow.Name = "btnViewBorrow";
+            this.btnExportBorrow.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnExportBorrow.Size = new System.Drawing.Size(230, 40);
+            this.btnExportBorrow.TabIndex = 17;
+            this.btnExportBorrow.Text = "  Xuất lịch sử mượn/trả sách";
+            this.btnExportBorrow.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExportBorrow.Visible = false;
+            this.btnExportBorrow.Click += new System.EventHandler(this.btnExportBorrow_Click);
             // 
             // btnExtendBorrow
             // 
@@ -387,7 +387,7 @@ namespace appQLTVien
             this.btnExtendBorrow.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnExtendBorrow.Size = new System.Drawing.Size(230, 40);
             this.btnExtendBorrow.TabIndex = 18;
-            this.btnExtendBorrow.Text = "  Gia hạn mượn";
+            this.btnExtendBorrow.Text = "  Kiểm tra trạng thái mượn";
             this.btnExtendBorrow.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnExtendBorrow.Visible = false;
             this.btnExtendBorrow.Click += new System.EventHandler(this.btnExtendBorrow_Click);
@@ -425,28 +425,28 @@ namespace appQLTVien
             this.btnAddPenalty.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnAddPenalty.Size = new System.Drawing.Size(230, 40);
             this.btnAddPenalty.TabIndex = 19;
-            this.btnAddPenalty.Text = "  Thêm phí phạt";
+            this.btnAddPenalty.Text = "  Tính phí phạt";
             this.btnAddPenalty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAddPenalty.Visible = false;
             this.btnAddPenalty.Click += new System.EventHandler(this.btnAddPenalty_Click);
             // 
-            // btnViewPenalty
+            // btnExportPenalty
             // 
-            this.btnViewPenalty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
-            this.btnViewPenalty.FlatAppearance.BorderSize = 0;
-            this.btnViewPenalty.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(220)))), ((int)(((byte)(200)))));
-            this.btnViewPenalty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnViewPenalty.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnViewPenalty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(100)))), ((int)(((byte)(90)))));
-            this.btnViewPenalty.Location = new System.Drawing.Point(20, 840);
-            this.btnViewPenalty.Name = "btnViewPenalty";
-            this.btnViewPenalty.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnViewPenalty.Size = new System.Drawing.Size(230, 40);
-            this.btnViewPenalty.TabIndex = 20;
-            this.btnViewPenalty.Text = "  Xem phí phạt";
-            this.btnViewPenalty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnViewPenalty.Visible = false;
-            this.btnViewPenalty.Click += new System.EventHandler(this.btnViewPenalty_Click);
+            this.btnExportPenalty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
+            this.btnExportPenalty.FlatAppearance.BorderSize = 0;
+            this.btnExportPenalty.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(220)))), ((int)(((byte)(200)))));
+            this.btnExportPenalty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExportPenalty.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnExportPenalty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(100)))), ((int)(((byte)(90)))));
+            this.btnExportPenalty.Location = new System.Drawing.Point(20, 840);
+            this.btnExportPenalty.Name = "btnViewPenalty";
+            this.btnExportPenalty.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnExportPenalty.Size = new System.Drawing.Size(230, 40);
+            this.btnExportPenalty.TabIndex = 20;
+            this.btnExportPenalty.Text = "  Xuất phí phạt";
+            this.btnExportPenalty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExportPenalty.Visible = false;
+            this.btnExportPenalty.Click += new System.EventHandler(this.btnExportPenalty_Click);
 
 
 

@@ -8,3 +8,4 @@ C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\D
 C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.exe
 C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.pdb
 C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.AdminForm.resources
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.AddBookControl.resources

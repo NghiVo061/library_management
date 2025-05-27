@@ -46,22 +46,121 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBookControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddBookControl.Designer.cs">
+      <DependentUpon>AddBookControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddMemberC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddMemberC.Designer.cs">
+      <DependentUpon>AddMemberC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPenaltyC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddPenaltyC.Designer.cs">
+      <DependentUpon>AddPenaltyC.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
+    <Compile Include="BorrowBookC.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="BorrowBookC.Designer.cs">
+      <DependentUpon>BorrowBookC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckStatusControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CheckStatusControl.Designer.cs">
+      <DependentUpon>CheckStatusControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteBookControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DeleteBookControl.Designer.cs">
+      <DependentUpon>DeleteBookControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteMemberC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DeleteMemberC.Designer.cs">
+      <DependentUpon>DeleteMemberC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditBookControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditBookControl.Designer.cs">
+      <DependentUpon>EditBookControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMemberC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditMemberC.Designer.cs">
+      <DependentUpon>EditMemberC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportBookControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExportBookControl.Designer.cs">
+      <DependentUpon>ExportBookControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportPenaltyC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExportPenaltyC.Designer.cs">
+      <DependentUpon>ExportPenaltyC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtendBorrowC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExtendBorrowC.Designer.cs">
+      <DependentUpon>ExtendBorrowC.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReturnBookC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReturnBookC.Designer.cs">
+      <DependentUpon>ReturnBookC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewBookC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewBookC.Designer.cs">
+      <DependentUpon>ViewBookC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMemberC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewMemberC.Designer.cs">
+      <DependentUpon>ViewMemberC.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddBookControl.resx">
+      <DependentUpon>AddBookControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteBookControl.resx">
+      <DependentUpon>DeleteBookControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditBookControl.resx">
+      <DependentUpon>EditBookControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -20,8 +20,15 @@ namespace appQLTVien
         public AdminForm()
         {
             InitializeComponent();
+            btnLogout.Click += (s, e) => this.Close();
         }
 
+        private void LoadUserControl(UserControl control)
+        {
+            panelContent.Controls.Clear();
+            control.Dock = DockStyle.Fill;
+            panelContent.Controls.Add(control);
+        }
         private void btnBookManagement_Click(object sender, EventArgs e)
         {
             isBookSubMenuVisible = !isBookSubMenuVisible;
@@ -64,7 +71,7 @@ namespace appQLTVien
             btnAddMember.Visible = isMemberSubMenuVisible;
             btnEditMember.Visible = isMemberSubMenuVisible;
             btnDeleteMember.Visible = isMemberSubMenuVisible;
-            btnViewMember.Visible = isMemberSubMenuVisible;
+            btnExportMember.Visible = isMemberSubMenuVisible;
 
             UpdateMemberSubMenu();
         }
@@ -77,9 +84,9 @@ namespace appQLTVien
                 btnAddMember.Location = new Point(20, baseY);
                 btnEditMember.Location = new Point(20, baseY + btnAddMember.Height + 5);
                 btnDeleteMember.Location = new Point(20, baseY + (btnAddMember.Height + 5) * 2);
-                btnViewMember.Location = new Point(20, baseY + (btnAddMember.Height + 5) * 3);
+                btnExportMember.Location = new Point(20, baseY + (btnAddMember.Height + 5) * 3);
 
-                int nextY = btnViewMember.Location.Y + btnViewMember.Height + 10;
+                int nextY = btnExportMember.Location.Y + btnExportMember.Height + 10;
                 btnManageBookBorrow.Location = new Point(0, nextY);
                 btnPenaltyFeeManagement.Location = new Point(0, nextY + btnManageBookBorrow.Height + 5);
                 btnLogout.Location = new Point(0, nextY + (btnManageBookBorrow.Height + 5) * 2);
@@ -111,7 +118,7 @@ namespace appQLTVien
             isBorrowSubMenuVisible = !isBorrowSubMenuVisible;
             btnBorrowBook.Visible = isBorrowSubMenuVisible;
             btnReturnBook.Visible = isBorrowSubMenuVisible;
-            btnViewBorrow.Visible = isBorrowSubMenuVisible;
+            btnExportBorrow.Visible = isBorrowSubMenuVisible;
             btnExtendBorrow.Visible = isBorrowSubMenuVisible;
 
             UpdateBorrowSubMenu();
@@ -124,7 +131,7 @@ namespace appQLTVien
             {
                 btnBorrowBook.Location = new Point(20, baseY);
                 btnReturnBook.Location = new Point(20, baseY + btnBorrowBook.Height + 5);
-                btnViewBorrow.Location = new Point(20, baseY + (btnBorrowBook.Height + 5) * 2);
+                btnExportBorrow.Location = new Point(20, baseY + (btnBorrowBook.Height + 5) * 2);
                 btnExtendBorrow.Location = new Point(20, baseY + (btnBorrowBook.Height + 5) * 3);
 
                 int nextY = btnExtendBorrow.Location.Y + btnExtendBorrow.Height + 10;
@@ -135,7 +142,7 @@ namespace appQLTVien
             {
                 if (isMemberSubMenuVisible)
                 {
-                    int nextY = btnViewMember.Location.Y + btnViewMember.Height + 10;
+                    int nextY = btnExportMember.Location.Y + btnExportMember.Height + 10;
                     btnManageBookBorrow.Location = new Point(0, nextY);
                     btnPenaltyFeeManagement.Location = new Point(0, nextY + btnManageBookBorrow.Height + 5);
                     btnLogout.Location = new Point(0, nextY + (btnManageBookBorrow.Height + 5) * 2);
@@ -163,7 +170,7 @@ namespace appQLTVien
         {
             isPenaltySubMenuVisible = !isPenaltySubMenuVisible;
             btnAddPenalty.Visible = isPenaltySubMenuVisible;
-            btnViewPenalty.Visible = isPenaltySubMenuVisible;
+            btnExportPenalty.Visible = isPenaltySubMenuVisible;
 
             UpdatePenaltySubMenu();
         }
@@ -174,9 +181,9 @@ namespace appQLTVien
             if (isPenaltySubMenuVisible)
             {
                 btnAddPenalty.Location = new Point(20, baseY);
-                btnViewPenalty.Location = new Point(20, baseY + btnAddPenalty.Height + 5);
+                btnExportPenalty.Location = new Point(20, baseY + btnAddPenalty.Height + 5);
 
-                int nextY = btnViewPenalty.Location.Y + btnViewPenalty.Height + 10;
+                int nextY = btnExportPenalty.Location.Y + btnExportPenalty.Height + 10;
                 btnLogout.Location = new Point(0, nextY);
             }
             else
@@ -189,7 +196,7 @@ namespace appQLTVien
                 }
                 else if (isMemberSubMenuVisible)
                 {
-                    int nextY = btnViewMember.Location.Y + btnViewMember.Height + 10;
+                    int nextY = btnExportMember.Location.Y + btnExportMember.Height + 10;
                     btnManageBookBorrow.Location = new Point(0, nextY);
                     btnPenaltyFeeManagement.Location = new Point(0, nextY + btnManageBookBorrow.Height + 5);
                     btnLogout.Location = new Point(0, nextY + (btnManageBookBorrow.Height + 5) * 2);
@@ -214,7 +221,7 @@ namespace appQLTVien
 
         private void btnAddBook_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Thêm sách");
+            LoadUserControl(new AddBookControl());
         }
 
         private void btnEditBook_Click(object sender, EventArgs e)
@@ -252,7 +259,7 @@ namespace appQLTVien
             MessageBox.Show("Chức năng Xóa thành viên");
         }
 
-        private void btnViewMember_Click(object sender, EventArgs e)
+        private void btnExportMember_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Chức năng Xem thành viên");
         }
@@ -267,7 +274,7 @@ namespace appQLTVien
             MessageBox.Show("Chức năng Trả sách");
         }
 
-        private void btnViewBorrow_Click(object sender, EventArgs e)
+        private void btnExportBorrow_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Chức năng Xem mượn sách");
         }
@@ -282,7 +289,7 @@ namespace appQLTVien
             MessageBox.Show("Chức năng Thêm phí phạt");
         }
 
-        private void btnViewPenalty_Click(object sender, EventArgs e)
+        private void btnExportPenalty_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Chức năng Xem phí phạt");
         }
