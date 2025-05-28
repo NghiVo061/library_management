@@ -1,6 +1,6 @@
 ﻿namespace appQLTVien
 {
-    partial class ViewBookC
+    partial class BorrowHistoryC
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,8 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // BorrowHistoryC
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Name = "BorrowHistoryC";
+            this.Size = new System.Drawing.Size(786, 476);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

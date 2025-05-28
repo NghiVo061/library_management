@@ -20,6 +20,12 @@ namespace appQLTVien
             InitializeComponent();
         }
 
+        private void LoadUserControl(UserControl control)
+        {
+            panelContent.Controls.Clear();
+            control.Dock = DockStyle.Fill;
+            panelContent.Controls.Add(control);
+        }
         private void btnManageBorrow_Click(object sender, EventArgs e)
         {
             isBorrowSubMenuVisible = !isBorrowSubMenuVisible;
@@ -49,7 +55,7 @@ namespace appQLTVien
             isProfileSubMenuVisible = !isProfileSubMenuVisible;
             btnViewProfile.Visible = isProfileSubMenuVisible;
             btnEditProfile.Visible = isProfileSubMenuVisible;
-            btnChangePassword.Visible = isProfileSubMenuVisible;
+            btnCheckFine.Visible = isProfileSubMenuVisible;
 
             UpdateProfileSubMenu();
         }
@@ -61,9 +67,9 @@ namespace appQLTVien
             {
                 btnViewProfile.Location = new Point(20, baseY);
                 btnEditProfile.Location = new Point(20, baseY + btnViewProfile.Height + 5);
-                btnChangePassword.Location = new Point(20, baseY + (btnViewProfile.Height + 5) * 2);
+                btnCheckFine.Location = new Point(20, baseY + (btnViewProfile.Height + 5) * 2);
 
-                int nextY = btnChangePassword.Location.Y + btnChangePassword.Height + 10;
+                int nextY = btnCheckFine.Location.Y + btnCheckFine.Height + 10;
                 btnLogout.Location = new Point(0, nextY);
             }
             else
@@ -84,27 +90,27 @@ namespace appQLTVien
 
         private void btnSearchBook_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Tìm kiếm sách");
+            LoadUserControl(new SearchBookC());
         }
 
         private void btnBorrowHistory_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Xem lịch sử mượn/trả");
+            LoadUserControl(new BorrowHistoryC());
         }
 
         private void btnViewProfile_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Xem thông tin cá nhân");
+            LoadUserControl(new ViewProfileC());
         }
 
         private void btnEditProfile_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Sửa thông tin cá nhân");
+            LoadUserControl(new EditProfileC());
         }
 
-        private void btnChangePassword_Click(object sender, EventArgs e)
+        private void btnCheckFine_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Đổi mật khẩu");
+            LoadUserControl(new CheckFineC());
         }
 
         private void btnLogout_Click(object sender, EventArgs e)

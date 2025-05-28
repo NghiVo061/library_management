@@ -28,10 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtMemberID = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.btnDeleteM = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(122, 96);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(92, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Mã thành viên:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(123, 159);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(97, 16);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Tên thành viên:";
+            // 
+            // txtMemberID
+            // 
+            this.txtMemberID.Location = new System.Drawing.Point(239, 96);
+            this.txtMemberID.Name = "txtMemberID";
+            this.txtMemberID.Size = new System.Drawing.Size(100, 22);
+            this.txtMemberID.TabIndex = 2;
+            // 
+            // txtName
+            // 
+            this.txtName.Location = new System.Drawing.Point(239, 159);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(100, 22);
+            this.txtName.TabIndex = 3;
+            // 
+            // btnDeleteM
+            // 
+            this.btnDeleteM.Location = new System.Drawing.Point(148, 278);
+            this.btnDeleteM.Name = "btnDeleteM";
+            this.btnDeleteM.Size = new System.Drawing.Size(131, 44);
+            this.btnDeleteM.TabIndex = 4;
+            this.btnDeleteM.Text = "Xóa thành viên";
+            this.btnDeleteM.UseVisualStyleBackColor = true;
+            this.btnDeleteM.Click += new System.EventHandler(this.btnDeleteM_Click);
+            // 
+            // DeleteMemberC
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnDeleteM);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtMemberID);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Name = "DeleteMemberC";
+            this.Size = new System.Drawing.Size(792, 477);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtMemberID;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Button btnDeleteM;
     }
 }

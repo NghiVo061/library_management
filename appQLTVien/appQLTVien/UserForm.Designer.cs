@@ -14,7 +14,7 @@
         private System.Windows.Forms.Button btnBorrowHistory;
         private System.Windows.Forms.Button btnViewProfile;
         private System.Windows.Forms.Button btnEditProfile;
-        private System.Windows.Forms.Button btnChangePassword;
+        private System.Windows.Forms.Button btnCheckFine;
 
         protected override void Dispose(bool disposing)
         {
@@ -35,7 +35,7 @@
             this.btnBorrowHistory = new System.Windows.Forms.Button();
             this.btnViewProfile = new System.Windows.Forms.Button();
             this.btnEditProfile = new System.Windows.Forms.Button();
-            this.btnChangePassword = new System.Windows.Forms.Button();
+            this.btnCheckFine = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelContent = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
@@ -51,7 +51,7 @@
             this.panelMenu.Controls.Add(this.btnBorrowHistory);
             this.panelMenu.Controls.Add(this.btnViewProfile);
             this.panelMenu.Controls.Add(this.btnEditProfile);
-            this.panelMenu.Controls.Add(this.btnChangePassword);
+            this.panelMenu.Controls.Add(this.btnCheckFine);
             this.panelMenu.Controls.Add(this.lblTitle);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
@@ -192,23 +192,23 @@
             this.btnEditProfile.Visible = false;
             this.btnEditProfile.Click += new System.EventHandler(this.btnEditProfile_Click);
             // 
-            // btnChangePassword
+            // btnCheckFine
             // 
-            this.btnChangePassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
-            this.btnChangePassword.FlatAppearance.BorderSize = 0;
-            this.btnChangePassword.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(220)))), ((int)(((byte)(200)))));
-            this.btnChangePassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChangePassword.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnChangePassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(100)))), ((int)(((byte)(90)))));
-            this.btnChangePassword.Location = new System.Drawing.Point(20, 440);
-            this.btnChangePassword.Name = "btnChangePassword";
-            this.btnChangePassword.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnChangePassword.Size = new System.Drawing.Size(230, 40);
-            this.btnChangePassword.TabIndex = 8;
-            this.btnChangePassword.Text = "  Đổi mật khẩu";
-            this.btnChangePassword.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChangePassword.Visible = false;
-            this.btnChangePassword.Click += new System.EventHandler(this.btnChangePassword_Click);
+            this.btnCheckFine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
+            this.btnCheckFine.FlatAppearance.BorderSize = 0;
+            this.btnCheckFine.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(220)))), ((int)(((byte)(200)))));
+            this.btnCheckFine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCheckFine.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnCheckFine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(100)))), ((int)(((byte)(90)))));
+            this.btnCheckFine.Location = new System.Drawing.Point(20, 440);
+            this.btnCheckFine.Name = "btnCheckFine";
+            this.btnCheckFine.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnCheckFine.Size = new System.Drawing.Size(230, 40);
+            this.btnCheckFine.TabIndex = 8;
+            this.btnCheckFine.Text = "  Kiểm tra Phí Phạt";
+            this.btnCheckFine.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCheckFine.Visible = false;
+            this.btnCheckFine.Click += new System.EventHandler(this.btnCheckFine_Click);
             // 
             // lblTitle
             // 

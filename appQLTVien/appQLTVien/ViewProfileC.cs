@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace appQLTVien
 {
-    public partial class ViewMemberC : UserControl
+    public partial class ViewProfileC : UserControl
     {
-        public ViewMemberC()
+        public ViewProfileC()
         {
             InitializeComponent();
         }

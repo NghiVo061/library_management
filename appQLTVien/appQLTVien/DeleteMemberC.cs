@@ -16,5 +16,12 @@ namespace appQLTVien
         {
             InitializeComponent();
         }
+
+        private void btnDeleteM_Click(object sender, EventArgs e)
+        {
+            
+            ConfirmDeleteForm confirmForm = new ConfirmDeleteForm();
+            confirmForm.ShowDialog();
+        }
     }
 }

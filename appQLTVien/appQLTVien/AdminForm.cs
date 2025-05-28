@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace appQLTVien
 {
@@ -226,72 +227,74 @@ namespace appQLTVien
 
         private void btnEditBook_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Sửa sách");
+            LoadUserControl(new EditBookControl());
         }
 
         private void btnDeleteBook_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Xóa sách");
+            LoadUserControl(new DeleteBookControl());
         }
 
         private void btnExportBook_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Xuất sách");
+            LoadUserControl(new ExportBookControl());
         }
 
         private void btnCheckBookStatus_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Kiểm tra trạng thái sách");
+            LoadUserControl(new CheckStatusControl());
         }
 
         private void btnAddMember_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Thêm thành viên");
+            LoadUserControl(new AddMemberC());
         }
 
         private void btnEditMember_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Sửa thành viên");
+            LoadUserControl(new EditMemberC());
         }
 
         private void btnDeleteMember_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Xóa thành viên");
+            LoadUserControl(new DeleteMemberC());
         }
 
         private void btnExportMember_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Xem thành viên");
+            LoadUserControl(new ExportMemberC());
         }
 
         private void btnBorrowBook_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Mượn sách");
+            LoadUserControl(new BorrowBookC());
         }
 
         private void btnReturnBook_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Trả sách");
+            LoadUserControl(new ReturnBookC());
         }
 
         private void btnExportBorrow_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Xem mượn sách");
+            LoadUserControl(new ExportBorrow());
         }
 
         private void btnExtendBorrow_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Gia hạn mượn");
+            LoadUserControl(new ExtendBorrowC());
         }
 
         private void btnAddPenalty_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Thêm phí phạt");
+            LoadUserControl(new AddPenaltyC());
         }
 
         private void btnExportPenalty_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng Xem phí phạt");
+            LoadUserControl(new ExportPenaltyC());
         }
+
+        
     }
 }

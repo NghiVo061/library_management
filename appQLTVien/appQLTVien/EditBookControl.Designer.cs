@@ -40,7 +40,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.btnLoad = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.cbcIDbook = new System.Windows.Forms.ComboBox();
+            this.cboIDbook = new System.Windows.Forms.ComboBox();
             this.txtNameBook = new System.Windows.Forms.TextBox();
             this.txtAuthor = new System.Windows.Forms.TextBox();
             this.txtPublisher = new System.Windows.Forms.TextBox();
@@ -160,13 +160,13 @@
             this.btnUpdate.Text = "Lưu thay đổi";
             this.btnUpdate.UseVisualStyleBackColor = true;
             // 
-            // cbcIDbook
+            // cboIDbook
             // 
-            this.cbcIDbook.FormattingEnabled = true;
-            this.cbcIDbook.Location = new System.Drawing.Point(225, 107);
-            this.cbcIDbook.Name = "cbcIDbook";
-            this.cbcIDbook.Size = new System.Drawing.Size(119, 24);
-            this.cbcIDbook.TabIndex = 14;
+            this.cboIDbook.FormattingEnabled = true;
+            this.cboIDbook.Location = new System.Drawing.Point(225, 107);
+            this.cboIDbook.Name = "cboIDbook";
+            this.cboIDbook.Size = new System.Drawing.Size(119, 24);
+            this.cboIDbook.TabIndex = 14;
             // 
             // txtNameBook
             // 
@@ -244,7 +244,7 @@
             this.Controls.Add(this.txtPublisher);
             this.Controls.Add(this.txtAuthor);
             this.Controls.Add(this.txtNameBook);
-            this.Controls.Add(this.cbcIDbook);
+            this.Controls.Add(this.cboIDbook);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.label12);
@@ -278,7 +278,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.ComboBox cbcIDbook;
+        private System.Windows.Forms.ComboBox cboIDbook;
         private System.Windows.Forms.TextBox txtNameBook;
         private System.Windows.Forms.TextBox txtAuthor;
         private System.Windows.Forms.TextBox txtPublisher;
