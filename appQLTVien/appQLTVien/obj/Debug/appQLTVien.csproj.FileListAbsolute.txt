@@ -28,3 +28,5 @@ C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\D
 C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.EditProfileC.resources
 C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.SearchBookC.resources
 C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.ViewProfileC.resources
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.ForgotPasswordForm.resources
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.LoginForm.resources
