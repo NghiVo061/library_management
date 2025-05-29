@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|c:\\users\\acer\\source\\repos\\apptt2\\library_management\\appqltvien\\appqltvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|c:\\users\\acer\\source\\repos\\apptt2\\library_management\\appqltvien\\appqltvien\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|c:\\users\\acer\\source\\repos\\apptt2\\library_management\\appqltvien\\appqltvien\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +43,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserForm.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\UserForm.cs",
+              "RelativeDocumentMoniker": "appQLTVien\\UserForm.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\UserForm.cs",
+              "RelativeToolTip": "appQLTVien\\UserForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:33:53.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\Program.cs",
+              "RelativeDocumentMoniker": "appQLTVien\\Program.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\Program.cs",
+              "RelativeToolTip": "appQLTVien\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:31:51.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\AdminForm.cs",
+              "RelativeDocumentMoniker": "appQLTVien\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\AdminForm.cs",
+              "RelativeToolTip": "appQLTVien\\AdminForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:31:39.242Z",
+              "EditorCaption": ""
             }
           ]
         }
