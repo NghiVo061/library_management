@@ -41,8 +41,8 @@ namespace appQLTVien
 
             Label lblLateDays = new Label() { Text = "Số ngày trễ:", Location = new Point(20, 140) };
             cboLateDays = new ComboBox() { Location = new Point(150, 140), Width = 200, DropDownStyle = ComboBoxStyle.DropDownList };
-            for (int i = 1; i <= 30; i++) cboLateDays.Items.Add(i.ToString());
-            cboLateDays.Visible = false;
+            for (int i = 1; i <= 100; i++) cboLateDays.Items.Add(i.ToString());
+            cboLateDays.Visible = true;
 
             btnConfirm = new Button() { Text = "Xác nhận trả sách", Location = new Point(150, 190) };
             btnConfirm.Click += BtnConfirm_Click;

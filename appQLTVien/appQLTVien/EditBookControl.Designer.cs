@@ -38,7 +38,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.btnLoad = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.cboIDbook = new System.Windows.Forms.ComboBox();
             this.txtNameBook = new System.Windows.Forms.TextBox();
@@ -142,18 +141,9 @@
             this.label12.TabIndex = 11;
             this.label12.Text = "Năm xuất bản";
             // 
-            // btnLoad
-            // 
-            this.btnLoad.Location = new System.Drawing.Point(126, 391);
-            this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(163, 59);
-            this.btnLoad.TabIndex = 12;
-            this.btnLoad.Text = "Tải thông tin hiện tại";
-            this.btnLoad.UseVisualStyleBackColor = true;
-            // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(439, 386);
+            this.btnUpdate.Location = new System.Drawing.Point(273, 386);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(177, 64);
             this.btnUpdate.TabIndex = 13;
@@ -246,7 +236,6 @@
             this.Controls.Add(this.txtNameBook);
             this.Controls.Add(this.cboIDbook);
             this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label8);
@@ -276,7 +265,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.ComboBox cboIDbook;
         private System.Windows.Forms.TextBox txtNameBook;
