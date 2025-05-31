@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|c:\\users\\acer\\source\\repos\\apptt2\\library_management\\appqltvien\\appqltvien\\addpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\addpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|c:\\users\\acer\\source\\repos\\apptt2\\library_management\\appqltvien\\appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|c:\\users\\acer\\source\\repos\\apptt2\\library_management\\appqltvien\\appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|c:\\users\\acer\\source\\repos\\apptt2\\library_management\\appqltvien\\appqltvien\\returnbookc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\returnbookc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,57 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddPenaltyC.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.cs",
-              "RelativeDocumentMoniker": "appQLTVien\\AddPenaltyC.cs",
-              "ToolTip": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.cs",
-              "RelativeToolTip": "appQLTVien\\AddPenaltyC.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwDAAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:26:18.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExportPenaltyC.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs",
-              "RelativeDocumentMoniker": "appQLTVien\\ExportPenaltyC.cs",
-              "ToolTip": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs",
-              "RelativeToolTip": "appQLTVien\\ExportPenaltyC.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:25:54.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExportPenaltyC.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs",
-              "RelativeDocumentMoniker": "appQLTVien\\ExportPenaltyC.cs",
-              "ToolTip": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs [Design]",
-              "RelativeToolTip": "appQLTVien\\ExportPenaltyC.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:25:09.712Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReturnBookC.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\ReturnBookC.cs",
-              "RelativeDocumentMoniker": "appQLTVien\\ReturnBookC.cs",
-              "ToolTip": "C:\\Users\\Acer\\source\\repos\\appTT2\\library_management\\appQLTVien\\appQLTVien\\ReturnBookC.cs",
-              "RelativeToolTip": "appQLTVien\\ReturnBookC.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA1wCoAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:00:04.546Z",
-              "EditorCaption": ""
             }
           ]
         }
