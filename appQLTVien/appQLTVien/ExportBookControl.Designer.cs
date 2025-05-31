@@ -29,7 +29,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "ExportBookControl";
-            this.Size = new System.Drawing.Size(786, 642);
+            this.Size = new System.Drawing.Size(1433, 642);
             this.ResumeLayout(false);
 
         }

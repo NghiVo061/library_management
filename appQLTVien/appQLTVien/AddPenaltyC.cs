@@ -12,8 +12,8 @@ namespace appQLTVien
 {
     public partial class AddPenaltyC : UserControl
     {
-        TextBox txtMemberID, txtIDbook, txtFineID;
-        ComboBox cboDaysLate, cboIssue;
+        TextBox txtMemberID, txtIDbook, txtFineID, txtLate;
+        ComboBox  cboIssue;
         Label lblTotalFine;
         Button btnCalculate;
 
@@ -46,8 +46,7 @@ namespace appQLTVien
             txtIDbook = new TextBox() { Location = new Point(150, 128), Width = 200 };
 
             Label lblDaysLate = new Label() { Text = "Số ngày trễ:", Location = new Point(20, 170) };
-            cboDaysLate = new ComboBox() { Location = new Point(150, 168), Width = 100, DropDownStyle = ComboBoxStyle.DropDownList };
-            for (int i = 0; i <= 30; i++) cboDaysLate.Items.Add(i.ToString());
+            txtLate = new TextBox() { Location = new Point(150, 168), Width = 200 };
 
             Label lblIssue = new Label() { Text = "Vi phạm:", Location = new Point(20, 210) };
             cboIssue = new ComboBox() { Location = new Point(150, 208), Width = 150, DropDownStyle = ComboBoxStyle.DropDownList };
@@ -69,7 +68,7 @@ namespace appQLTVien
                 title, lblFineID, txtFineID,
                 lblMember, txtMemberID,
                 lblBook, txtIDbook,
-                lblDaysLate, cboDaysLate,
+                lblDaysLate, txtLate,
                 lblIssue, cboIssue,
                 btnCalculate, lblTotalFine
             });

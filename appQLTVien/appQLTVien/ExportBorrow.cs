@@ -36,7 +36,7 @@ namespace appQLTVien
             dgvHistory = new DataGridView()
             {
                 Location = new Point(20, 60),
-                Size = new Size(650, 300),
+                Size = new Size(1100, 600),
                 AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
             };
 
@@ -56,10 +56,10 @@ namespace appQLTVien
                 return;
             }
 
-           
+
         }
 
-        
+
         private DataTable GetMockHistoryData(string memberId)
         {
             DataTable table = new DataTable();
@@ -69,7 +69,7 @@ namespace appQLTVien
             table.Columns.Add("Ngày trả dự kiến");
             table.Columns.Add("Trạng thái");
 
-            
+
 
             return table;
         }

@@ -12,7 +12,7 @@ namespace appQLTVien
 {
     public partial class ReturnBookC : UserControl
     {
-        TextBox txtMemberID;
+        TextBox txtMemberID, txtLate, txtQuantity;
         ComboBox cboIDbook, cboStatus, cboLateDays;
         Button btnConfirm;
 
@@ -40,11 +40,13 @@ namespace appQLTVien
             cboStatus.SelectedIndexChanged += CboStatus_SelectedIndexChanged;
 
             Label lblLateDays = new Label() { Text = "Số ngày trễ:", Location = new Point(20, 140) };
-            cboLateDays = new ComboBox() { Location = new Point(150, 140), Width = 200, DropDownStyle = ComboBoxStyle.DropDownList };
-            for (int i = 1; i <= 100; i++) cboLateDays.Items.Add(i.ToString());
-            cboLateDays.Visible = true;
+            txtLate = new TextBox() { Location = new Point(150, 140), Width = 200 };
 
-            btnConfirm = new Button() { Text = "Xác nhận trả sách", Location = new Point(150, 190) };
+            Label lblQuantity = new Label() { Text = "Số Lượng", Location = new Point(20, 200) };
+            txtQuantity = new TextBox() { Location = new Point(150, 190), Width = 200 };
+
+
+            btnConfirm = new Button() { Text = "Xác nhận trả sách", Location = new Point(150, 250) };
             btnConfirm.Click += BtnConfirm_Click;
 
             this.Controls.AddRange(new Control[]
@@ -52,7 +54,8 @@ namespace appQLTVien
                 lblMemberID, txtMemberID,
                 lblIDbook, cboIDbook,
                 lblStatus, cboStatus,
-                lblLateDays, cboLateDays,
+                lblLateDays, txtLate,
+                lblQuantity, txtQuantity,
                 btnConfirm
             });
 

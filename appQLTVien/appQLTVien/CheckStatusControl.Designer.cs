@@ -41,15 +41,16 @@
             this.cboBookTitle.FormattingEnabled = true;
             this.cboBookTitle.Location = new System.Drawing.Point(352, 107);
             this.cboBookTitle.Name = "cboBookTitle";
-            this.cboBookTitle.Size = new System.Drawing.Size(121, 24);
+            this.cboBookTitle.Size = new System.Drawing.Size(222, 24);
             this.cboBookTitle.TabIndex = 0;
+            
             // 
             // cboIDbook
             // 
             this.cboIDbook.FormattingEnabled = true;
             this.cboIDbook.Location = new System.Drawing.Point(352, 166);
             this.cboIDbook.Name = "cboIDbook";
-            this.cboIDbook.Size = new System.Drawing.Size(121, 24);
+            this.cboIDbook.Size = new System.Drawing.Size(222, 24);
             this.cboIDbook.TabIndex = 1;
             // 
             // label1

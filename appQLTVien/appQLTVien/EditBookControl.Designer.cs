@@ -99,7 +99,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(390, 291);
+            this.label6.Location = new System.Drawing.Point(620, 296);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 16);
             this.label6.TabIndex = 5;
@@ -108,7 +108,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(390, 244);
+            this.label7.Location = new System.Drawing.Point(620, 249);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(67, 16);
             this.label7.TabIndex = 6;
@@ -117,7 +117,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(390, 201);
+            this.label8.Location = new System.Drawing.Point(620, 206);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(41, 16);
             this.label8.TabIndex = 7;
@@ -126,7 +126,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(390, 156);
+            this.label10.Location = new System.Drawing.Point(620, 161);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(60, 16);
             this.label10.TabIndex = 9;
@@ -135,7 +135,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(390, 110);
+            this.label12.Location = new System.Drawing.Point(620, 115);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(89, 16);
             this.label12.TabIndex = 11;
@@ -143,7 +143,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(273, 386);
+            this.btnUpdate.Location = new System.Drawing.Point(484, 436);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(177, 64);
             this.btnUpdate.TabIndex = 13;
@@ -155,70 +155,70 @@
             this.cboIDbook.FormattingEnabled = true;
             this.cboIDbook.Location = new System.Drawing.Point(225, 107);
             this.cboIDbook.Name = "cboIDbook";
-            this.cboIDbook.Size = new System.Drawing.Size(119, 24);
+            this.cboIDbook.Size = new System.Drawing.Size(290, 24);
             this.cboIDbook.TabIndex = 14;
             // 
             // txtNameBook
             // 
             this.txtNameBook.Location = new System.Drawing.Point(227, 161);
             this.txtNameBook.Name = "txtNameBook";
-            this.txtNameBook.Size = new System.Drawing.Size(100, 22);
+            this.txtNameBook.Size = new System.Drawing.Size(271, 22);
             this.txtNameBook.TabIndex = 15;
             // 
             // txtAuthor
             // 
             this.txtAuthor.Location = new System.Drawing.Point(227, 201);
             this.txtAuthor.Name = "txtAuthor";
-            this.txtAuthor.Size = new System.Drawing.Size(100, 22);
+            this.txtAuthor.Size = new System.Drawing.Size(271, 22);
             this.txtAuthor.TabIndex = 16;
             // 
             // txtPublisher
             // 
             this.txtPublisher.Location = new System.Drawing.Point(227, 291);
             this.txtPublisher.Name = "txtPublisher";
-            this.txtPublisher.Size = new System.Drawing.Size(100, 22);
+            this.txtPublisher.Size = new System.Drawing.Size(271, 22);
             this.txtPublisher.TabIndex = 17;
             // 
             // txtCate
             // 
             this.txtCate.Location = new System.Drawing.Point(227, 244);
             this.txtCate.Name = "txtCate";
-            this.txtCate.Size = new System.Drawing.Size(100, 22);
+            this.txtCate.Size = new System.Drawing.Size(271, 22);
             this.txtCate.TabIndex = 18;
             // 
             // txtYear
             // 
-            this.txtYear.Location = new System.Drawing.Point(538, 107);
+            this.txtYear.Location = new System.Drawing.Point(768, 112);
             this.txtYear.Name = "txtYear";
-            this.txtYear.Size = new System.Drawing.Size(100, 22);
+            this.txtYear.Size = new System.Drawing.Size(250, 22);
             this.txtYear.TabIndex = 19;
             // 
             // txtQuantity
             // 
-            this.txtQuantity.Location = new System.Drawing.Point(538, 153);
+            this.txtQuantity.Location = new System.Drawing.Point(768, 158);
             this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(100, 22);
+            this.txtQuantity.Size = new System.Drawing.Size(250, 22);
             this.txtQuantity.TabIndex = 20;
             // 
             // txtValue
             // 
-            this.txtValue.Location = new System.Drawing.Point(538, 198);
+            this.txtValue.Location = new System.Drawing.Point(768, 203);
             this.txtValue.Name = "txtValue";
-            this.txtValue.Size = new System.Drawing.Size(100, 22);
+            this.txtValue.Size = new System.Drawing.Size(250, 22);
             this.txtValue.TabIndex = 21;
             // 
             // txtStatus
             // 
-            this.txtStatus.Location = new System.Drawing.Point(538, 241);
+            this.txtStatus.Location = new System.Drawing.Point(768, 246);
             this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(100, 22);
+            this.txtStatus.Size = new System.Drawing.Size(250, 22);
             this.txtStatus.TabIndex = 22;
             // 
             // txtShelfLocation
             // 
-            this.txtShelfLocation.Location = new System.Drawing.Point(538, 288);
+            this.txtShelfLocation.Location = new System.Drawing.Point(768, 293);
             this.txtShelfLocation.Name = "txtShelfLocation";
-            this.txtShelfLocation.Size = new System.Drawing.Size(100, 22);
+            this.txtShelfLocation.Size = new System.Drawing.Size(250, 22);
             this.txtShelfLocation.TabIndex = 23;
             // 
             // EditBookControl
@@ -247,7 +247,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "EditBookControl";
-            this.Size = new System.Drawing.Size(783, 648);
+            this.Size = new System.Drawing.Size(1192, 648);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.btnSearch = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
@@ -38,21 +37,12 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(82, 337);
+            this.btnSearch.Location = new System.Drawing.Point(201, 317);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(160, 33);
             this.btnSearch.TabIndex = 0;
             this.btnSearch.Text = "Tìm kiếm thông tin";
             this.btnSearch.UseVisualStyleBackColor = true;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(324, 337);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(199, 32);
-            this.btnAdd.TabIndex = 1;
-            this.btnAdd.Text = "Lưu thông tin";
-            this.btnAdd.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -76,14 +66,14 @@
             // 
             this.txtName.Location = new System.Drawing.Point(324, 135);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(189, 22);
+            this.txtName.Size = new System.Drawing.Size(220, 22);
             this.txtName.TabIndex = 4;
             // 
             // txtMemberID
             // 
             this.txtMemberID.Location = new System.Drawing.Point(324, 197);
             this.txtMemberID.Name = "txtMemberID";
-            this.txtMemberID.Size = new System.Drawing.Size(189, 22);
+            this.txtMemberID.Size = new System.Drawing.Size(220, 22);
             this.txtMemberID.TabIndex = 5;
             // 
             // EditMemberC
@@ -94,7 +84,6 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnSearch);
             this.Name = "EditMemberC";
             this.Size = new System.Drawing.Size(787, 474);
@@ -106,7 +95,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtName;

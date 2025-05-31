@@ -40,7 +40,7 @@ namespace appQLTVien
             dgvBooks = new DataGridView();
             dgvBooks.Name = "dgvBooks";
             dgvBooks.Location = new Point(20, 60);
-            dgvBooks.Size = new Size(740, 550);
+            dgvBooks.Size = new Size(1100, 600);
             dgvBooks.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             this.Controls.Add(dgvBooks);
         }

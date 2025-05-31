@@ -35,7 +35,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "ExportBorrow";
-            this.Size = new System.Drawing.Size(777, 481);
+            this.Size = new System.Drawing.Size(1416, 619);
             this.ResumeLayout(false);
 
         }

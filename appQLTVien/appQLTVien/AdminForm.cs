@@ -24,14 +24,67 @@ namespace appQLTVien
             btnLogout.Click += (s, e) => this.Close();
         }
 
+        private Button selectedButton = null;
+        private Button selectedButton1 = null;
+
         private void LoadUserControl(UserControl control)
         {
             panelContent.Controls.Clear();
             control.Dock = DockStyle.Fill;
             panelContent.Controls.Add(control);
         }
+
+        private void Button_Click(object sender, EventArgs e)
+        {
+            Button clickedButton = sender as Button;
+
+            
+            if (selectedButton != null)
+            {
+                selectedButton.BackColor = Color.FromArgb(200, 235, 215);
+            }
+
+            
+            if (clickedButton == selectedButton)
+            {
+                clickedButton.BackColor = Color.FromArgb(200, 235, 215); 
+                selectedButton = null; 
+            }
+            else
+            {
+                
+                clickedButton.BackColor = Color.FromArgb(160, 200, 180); 
+                selectedButton = clickedButton; 
+            }
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Button clickedButton = sender as Button;
+
+            // Khôi phục màu nền của nút trước đó (nếu có)
+            if (selectedButton1 != null)
+            {
+                selectedButton1.BackColor = Color.FromArgb(200, 235, 215); 
+            }
+
+            
+            if (clickedButton == selectedButton1)
+            {
+                clickedButton.BackColor = Color.FromArgb(200, 235, 215); 
+                selectedButton1 = null; 
+            }
+            else
+            {
+                
+                clickedButton.BackColor = Color.FromArgb(160, 200, 180); 
+                selectedButton1 = clickedButton; // Lưu nút đang được chọn
+            }
+        }
         private void btnBookManagement_Click(object sender, EventArgs e)
         {
+            
+
             isBookSubMenuVisible = !isBookSubMenuVisible;
             btnAddBook.Visible = isBookSubMenuVisible;
             btnEditBook.Visible = isBookSubMenuVisible;
@@ -120,7 +173,7 @@ namespace appQLTVien
             btnBorrowBook.Visible = isBorrowSubMenuVisible;
             btnReturnBook.Visible = isBorrowSubMenuVisible;
             btnExportBorrow.Visible = isBorrowSubMenuVisible;
-            btnExtendBorrow.Visible = isBorrowSubMenuVisible;
+            
 
             UpdateBorrowSubMenu();
         }
@@ -133,9 +186,10 @@ namespace appQLTVien
                 btnBorrowBook.Location = new Point(20, baseY);
                 btnReturnBook.Location = new Point(20, baseY + btnBorrowBook.Height + 5);
                 btnExportBorrow.Location = new Point(20, baseY + (btnBorrowBook.Height + 5) * 2);
-                btnExtendBorrow.Location = new Point(20, baseY + (btnBorrowBook.Height + 5) * 3);
+               
 
-                int nextY = btnExtendBorrow.Location.Y + btnExtendBorrow.Height + 10;
+                
+                int nextY = btnExportBorrow.Location.Y + btnExportBorrow.Height + 10; 
                 btnPenaltyFeeManagement.Location = new Point(0, nextY);
                 btnLogout.Location = new Point(0, nextY + btnPenaltyFeeManagement.Height + 5);
             }
@@ -191,7 +245,7 @@ namespace appQLTVien
             {
                 if (isBorrowSubMenuVisible)
                 {
-                    int nextY = btnExtendBorrow.Location.Y + btnExtendBorrow.Height + 10;
+                    int nextY = btnExportBorrow.Location.Y + btnExportBorrow.Height + 10; 
                     btnPenaltyFeeManagement.Location = new Point(0, nextY);
                     btnLogout.Location = new Point(0, nextY + btnPenaltyFeeManagement.Height + 5);
                 }
@@ -280,10 +334,7 @@ namespace appQLTVien
             LoadUserControl(new ExportBorrow());
         }
 
-        private void btnExtendBorrow_Click(object sender, EventArgs e)
-        {
-            LoadUserControl(new ExtendBorrowC());
-        }
+       
 
         private void btnAddPenalty_Click(object sender, EventArgs e)
         {

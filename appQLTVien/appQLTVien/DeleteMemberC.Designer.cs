@@ -57,19 +57,19 @@
             // 
             this.txtMemberID.Location = new System.Drawing.Point(239, 96);
             this.txtMemberID.Name = "txtMemberID";
-            this.txtMemberID.Size = new System.Drawing.Size(100, 22);
+            this.txtMemberID.Size = new System.Drawing.Size(269, 22);
             this.txtMemberID.TabIndex = 2;
             // 
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(239, 159);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 22);
+            this.txtName.Size = new System.Drawing.Size(269, 22);
             this.txtName.TabIndex = 3;
             // 
             // btnDeleteM
             // 
-            this.btnDeleteM.Location = new System.Drawing.Point(148, 278);
+            this.btnDeleteM.Location = new System.Drawing.Point(287, 292);
             this.btnDeleteM.Name = "btnDeleteM";
             this.btnDeleteM.Size = new System.Drawing.Size(131, 44);
             this.btnDeleteM.TabIndex = 4;
