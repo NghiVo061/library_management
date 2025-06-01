@@ -21,12 +21,12 @@ namespace appQLTVien
             
         }
 
-        private void btnConfirm_Click(object sender, EventArgs e)
+        private void btnCancle_Click(object sender, EventArgs e)
         {
             
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
             Close();

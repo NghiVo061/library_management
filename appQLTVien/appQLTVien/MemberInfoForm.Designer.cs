@@ -125,7 +125,7 @@
             // 
             this.txtMemberID.Location = new System.Drawing.Point(225, 92);
             this.txtMemberID.Name = "txtMemberID";
-            this.txtMemberID.ReadOnly = true;
+            this.txtMemberID.ReadOnly = false;
             this.txtMemberID.Size = new System.Drawing.Size(232, 22);
             this.txtMemberID.TabIndex = 9;
             // 
@@ -133,7 +133,7 @@
             // 
             this.txtName.Location = new System.Drawing.Point(225, 145);
             this.txtName.Name = "txtName";
-            this.txtName.ReadOnly = true;
+            this.txtName.ReadOnly = false;
             this.txtName.Size = new System.Drawing.Size(232, 22);
             this.txtName.TabIndex = 10;
             // 
@@ -141,7 +141,7 @@
             // 
             this.txtGender.Location = new System.Drawing.Point(225, 200);
             this.txtGender.Name = "txtGender";
-            this.txtGender.ReadOnly = true;
+            this.txtGender.ReadOnly = false;
             this.txtGender.Size = new System.Drawing.Size(232, 22);
             this.txtGender.TabIndex = 11;
             // 
@@ -149,7 +149,7 @@
             // 
             this.txtDOB.Location = new System.Drawing.Point(670, 88);
             this.txtDOB.Name = "txtDOB";
-            this.txtDOB.ReadOnly = true;
+            this.txtDOB.ReadOnly = false;
             this.txtDOB.Size = new System.Drawing.Size(213, 22);
             this.txtDOB.TabIndex = 12;
             // 
@@ -157,7 +157,7 @@
             // 
             this.txtPhone.Location = new System.Drawing.Point(670, 142);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.ReadOnly = true;
+            this.txtPhone.ReadOnly = false;
             this.txtPhone.Size = new System.Drawing.Size(213, 22);
             this.txtPhone.TabIndex = 13;
             // 
@@ -165,7 +165,7 @@
             // 
             this.txtEmail.Location = new System.Drawing.Point(670, 194);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.ReadOnly = true;
+            this.txtEmail.ReadOnly = false;
             this.txtEmail.Size = new System.Drawing.Size(213, 22);
             this.txtEmail.TabIndex = 14;
             // 
@@ -173,7 +173,7 @@
             // 
             this.txtAddress.Location = new System.Drawing.Point(225, 256);
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.ReadOnly = true;
+            this.txtAddress.ReadOnly = false;
             this.txtAddress.Size = new System.Drawing.Size(232, 22);
             this.txtAddress.TabIndex = 15;
             // 
@@ -181,7 +181,7 @@
             // 
             this.txtHint.Location = new System.Drawing.Point(670, 298);
             this.txtHint.Name = "txtHint";
-            this.txtHint.ReadOnly = true;
+            this.txtHint.ReadOnly = false;
             this.txtHint.Size = new System.Drawing.Size(213, 22);
             this.txtHint.TabIndex = 16;
             // 
@@ -189,7 +189,7 @@
             // 
             this.txtPassword.Location = new System.Drawing.Point(670, 250);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.ReadOnly = true;
+            this.txtPassword.ReadOnly = false;
             this.txtPassword.Size = new System.Drawing.Size(213, 22);
             this.txtPassword.TabIndex = 17;
             // 
@@ -199,7 +199,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(167, 48);
             this.btnClose.TabIndex = 18;
-            this.btnClose.Text = "Đóng";
+            this.btnClose.Text = "Lưu";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
