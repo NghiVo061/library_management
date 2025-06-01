@@ -2,15 +2,9 @@
 {
     partial class MemberInfoForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,262 +16,247 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+
         private void InitializeComponent()
         {
-            this.lblMemberIDTitle = new System.Windows.Forms.Label();
-            this.lblNameTitle = new System.Windows.Forms.Label();
-            this.lblGenderTitle = new System.Windows.Forms.Label();
-            this.lblAddressTitle = new System.Windows.Forms.Label();
-            this.lblDOBTitle = new System.Windows.Forms.Label();
-            this.lblPhoneTitle = new System.Windows.Forms.Label();
-            this.lblEmailTitle = new System.Windows.Forms.Label();
-            this.lblPasswordTitle = new System.Windows.Forms.Label();
-            this.lblHintTitle = new System.Windows.Forms.Label();
-            this.lblMemberID = new System.Windows.Forms.Label();
-            this.lblName = new System.Windows.Forms.Label();
-            this.lblGender = new System.Windows.Forms.Label();
-            this.lblAddress = new System.Windows.Forms.Label();
-            this.lblDOB = new System.Windows.Forms.Label();
-            this.lblPhone = new System.Windows.Forms.Label();
-            this.lblEmail = new System.Windows.Forms.Label();
-            this.lblPassword = new System.Windows.Forms.Label();
-            this.lblHint = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtMemberID = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtGender = new System.Windows.Forms.TextBox();
+            this.txtDOB = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.txtHint = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lblMemberIDTitle
+            // label1
             // 
-            this.lblMemberIDTitle.AutoSize = true;
-            this.lblMemberIDTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMemberIDTitle.Location = new System.Drawing.Point(150, 50);
-            this.lblMemberIDTitle.Name = "lblMemberIDTitle";
-            this.lblMemberIDTitle.Size = new System.Drawing.Size(120, 25);
-            this.lblMemberIDTitle.TabIndex = 0;
-            this.lblMemberIDTitle.Text = "Mã thành viên";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(108, 91);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Mã thành viên";
             // 
-            // lblNameTitle
+            // label2
             // 
-            this.lblNameTitle.AutoSize = true;
-            this.lblNameTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameTitle.Location = new System.Drawing.Point(150, 100);
-            this.lblNameTitle.Name = "lblNameTitle";
-            this.lblNameTitle.Size = new System.Drawing.Size(62, 25);
-            this.lblNameTitle.TabIndex = 1;
-            this.lblNameTitle.Text = "Họ tên";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(108, 148);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 16);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Họ tên";
             // 
-            // lblGenderTitle
+            // label3
             // 
-            this.lblGenderTitle.AutoSize = true;
-            this.lblGenderTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGenderTitle.Location = new System.Drawing.Point(150, 150);
-            this.lblGenderTitle.Name = "lblGenderTitle";
-            this.lblGenderTitle.Size = new System.Drawing.Size(72, 25);
-            this.lblGenderTitle.TabIndex = 2;
-            this.lblGenderTitle.Text = "Giới tính";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(108, 203);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(54, 16);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Giới tính";
             // 
-            // lblAddressTitle
+            // label4
             // 
-            this.lblAddressTitle.AutoSize = true;
-            this.lblAddressTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddressTitle.Location = new System.Drawing.Point(150, 200);
-            this.lblAddressTitle.Name = "lblAddressTitle";
-            this.lblAddressTitle.Size = new System.Drawing.Size(62, 25);
-            this.lblAddressTitle.TabIndex = 3;
-            this.lblAddressTitle.Text = "Địa chỉ";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(539, 88);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 16);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Ngày sinh";
             // 
-            // lblDOBTitle
+            // label5
             // 
-            this.lblDOBTitle.AutoSize = true;
-            this.lblDOBTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDOBTitle.Location = new System.Drawing.Point(600, 50);
-            this.lblDOBTitle.Name = "lblDOBTitle";
-            this.lblDOBTitle.Size = new System.Drawing.Size(89, 25);
-            this.lblDOBTitle.TabIndex = 4;
-            this.lblDOBTitle.Text = "Ngày sinh";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(539, 145);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(85, 16);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Số điện thoại";
             // 
-            // lblPhoneTitle
+            // label6
             // 
-            this.lblPhoneTitle.AutoSize = true;
-            this.lblPhoneTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhoneTitle.Location = new System.Drawing.Point(600, 100);
-            this.lblPhoneTitle.Name = "lblPhoneTitle";
-            this.lblPhoneTitle.Size = new System.Drawing.Size(113, 25);
-            this.lblPhoneTitle.TabIndex = 5;
-            this.lblPhoneTitle.Text = "Số điện thoại";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(539, 194);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(41, 16);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Email";
             // 
-            // lblEmailTitle
+            // label7
             // 
-            this.lblEmailTitle.AutoSize = true;
-            this.lblEmailTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmailTitle.Location = new System.Drawing.Point(600, 150);
-            this.lblEmailTitle.Name = "lblEmailTitle";
-            this.lblEmailTitle.Size = new System.Drawing.Size(54, 25);
-            this.lblEmailTitle.TabIndex = 6;
-            this.lblEmailTitle.Text = "Email";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(108, 256);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(47, 16);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Địa chỉ";
             // 
-            // lblPasswordTitle
+            // label8
             // 
-            this.lblPasswordTitle.AutoSize = true;
-            this.lblPasswordTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPasswordTitle.Location = new System.Drawing.Point(600, 200);
-            this.lblPasswordTitle.Name = "lblPasswordTitle";
-            this.lblPasswordTitle.Size = new System.Drawing.Size(81, 25);
-            this.lblPasswordTitle.TabIndex = 7;
-            this.lblPasswordTitle.Text = "Mật khẩu";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(539, 298);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(38, 16);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Gợi ý";
             // 
-            // lblHintTitle
+            // label9
             // 
-            this.lblHintTitle.AutoSize = true;
-            this.lblHintTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHintTitle.Location = new System.Drawing.Point(600, 250);
-            this.lblHintTitle.Name = "lblHintTitle";
-            this.lblHintTitle.Size = new System.Drawing.Size(50, 25);
-            this.lblHintTitle.TabIndex = 8;
-            this.lblHintTitle.Text = "Gợi ý";
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(539, 250);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(61, 16);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "Mật khẩu";
             // 
-            // lblMemberID
+            // txtMemberID
             // 
-            this.lblMemberID.AutoSize = true;
-            this.lblMemberID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMemberID.Location = new System.Drawing.Point(300, 50);
-            this.lblMemberID.Name = "lblMemberID";
-            this.lblMemberID.Size = new System.Drawing.Size(120, 25);
-            this.lblMemberID.TabIndex = 9;
-            this.lblMemberID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMemberID.Location = new System.Drawing.Point(225, 92);
+            this.txtMemberID.Name = "txtMemberID";
+            this.txtMemberID.ReadOnly = true;
+            this.txtMemberID.Size = new System.Drawing.Size(232, 22);
+            this.txtMemberID.TabIndex = 9;
             // 
-            // lblName
+            // txtName
             // 
-            this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(300, 100);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(120, 25);
-            this.lblName.TabIndex = 10;
-            this.lblName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtName.Location = new System.Drawing.Point(225, 145);
+            this.txtName.Name = "txtName";
+            this.txtName.ReadOnly = true;
+            this.txtName.Size = new System.Drawing.Size(232, 22);
+            this.txtName.TabIndex = 10;
             // 
-            // lblGender
+            // txtGender
             // 
-            this.lblGender.AutoSize = true;
-            this.lblGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGender.Location = new System.Drawing.Point(300, 150);
-            this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(120, 25);
-            this.lblGender.TabIndex = 11;
-            this.lblGender.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtGender.Location = new System.Drawing.Point(225, 200);
+            this.txtGender.Name = "txtGender";
+            this.txtGender.ReadOnly = true;
+            this.txtGender.Size = new System.Drawing.Size(232, 22);
+            this.txtGender.TabIndex = 11;
             // 
-            // lblAddress
+            // txtDOB
             // 
-            this.lblAddress.AutoSize = true;
-            this.lblAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddress.Location = new System.Drawing.Point(300, 200);
-            this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(120, 25);
-            this.lblAddress.TabIndex = 12;
-            this.lblAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDOB.Location = new System.Drawing.Point(670, 88);
+            this.txtDOB.Name = "txtDOB";
+            this.txtDOB.ReadOnly = true;
+            this.txtDOB.Size = new System.Drawing.Size(213, 22);
+            this.txtDOB.TabIndex = 12;
             // 
-            // lblDOB
+            // txtPhone
             // 
-            this.lblDOB.AutoSize = true;
-            this.lblDOB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDOB.Location = new System.Drawing.Point(900, 50);
-            this.lblDOB.Name = "lblDOB";
-            this.lblDOB.Size = new System.Drawing.Size(120, 25);
-            this.lblDOB.TabIndex = 13;
-            this.lblDOB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPhone.Location = new System.Drawing.Point(670, 142);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.ReadOnly = true;
+            this.txtPhone.Size = new System.Drawing.Size(213, 22);
+            this.txtPhone.TabIndex = 13;
             // 
-            // lblPhone
+            // txtEmail
             // 
-            this.lblPhone.AutoSize = true;
-            this.lblPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhone.Location = new System.Drawing.Point(900, 100);
-            this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(120, 25);
-            this.lblPhone.TabIndex = 14;
-            this.lblPhone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEmail.Location = new System.Drawing.Point(670, 194);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.ReadOnly = true;
+            this.txtEmail.Size = new System.Drawing.Size(213, 22);
+            this.txtEmail.TabIndex = 14;
             // 
-            // lblEmail
+            // txtAddress
             // 
-            this.lblEmail.AutoSize = true;
-            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(900, 150);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(120, 25);
-            this.lblEmail.TabIndex = 15;
-            this.lblEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtAddress.Location = new System.Drawing.Point(225, 256);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.ReadOnly = true;
+            this.txtAddress.Size = new System.Drawing.Size(232, 22);
+            this.txtAddress.TabIndex = 15;
             // 
-            // lblPassword
+            // txtHint
             // 
-            this.lblPassword.AutoSize = true;
-            this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(900, 200);
-            this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(120, 25);
-            this.lblPassword.TabIndex = 16;
-            this.lblPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtHint.Location = new System.Drawing.Point(670, 298);
+            this.txtHint.Name = "txtHint";
+            this.txtHint.ReadOnly = true;
+            this.txtHint.Size = new System.Drawing.Size(213, 22);
+            this.txtHint.TabIndex = 16;
             // 
-            // lblHint
+            // txtPassword
             // 
-            this.lblHint.AutoSize = true;
-            this.lblHint.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHint.Location = new System.Drawing.Point(900, 250);
-            this.lblHint.Name = "lblHint";
-            this.lblHint.Size = new System.Drawing.Size(120, 25);
-            this.lblHint.TabIndex = 17;
-            this.lblHint.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPassword.Location = new System.Drawing.Point(670, 250);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.ReadOnly = true;
+            this.txtPassword.Size = new System.Drawing.Size(213, 22);
+            this.txtPassword.TabIndex = 17;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(393, 440);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(167, 48);
+            this.btnClose.TabIndex = 18;
+            this.btnClose.Text = "Đóng";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // MemberInfoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 300);
-            this.Controls.Add(this.lblHint);
-            this.Controls.Add(this.lblPassword);
-            this.Controls.Add(this.lblEmail);
-            this.Controls.Add(this.lblPhone);
-            this.Controls.Add(this.lblDOB);
-            this.Controls.Add(this.lblAddress);
-            this.Controls.Add(this.lblGender);
-            this.Controls.Add(this.lblName);
-            this.Controls.Add(this.lblMemberID);
-            this.Controls.Add(this.lblHintTitle);
-            this.Controls.Add(this.lblPasswordTitle);
-            this.Controls.Add(this.lblEmailTitle);
-            this.Controls.Add(this.lblPhoneTitle);
-            this.Controls.Add(this.lblDOBTitle);
-            this.Controls.Add(this.lblAddressTitle);
-            this.Controls.Add(this.lblGenderTitle);
-            this.Controls.Add(this.lblNameTitle);
-            this.Controls.Add(this.lblMemberIDTitle);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.ClientSize = new System.Drawing.Size(1109, 648);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtHint);
+            this.Controls.Add(this.txtAddress);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtPhone);
+            this.Controls.Add(this.txtDOB);
+            this.Controls.Add(this.txtGender);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtMemberID);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MemberInfoForm";
-            this.Text = "Thông tin của thành viên";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Thông Tin Thành Viên";
             this.ResumeLayout(false);
             this.PerformLayout();
         }
 
-        private System.Windows.Forms.Label lblMemberIDTitle;
-        private System.Windows.Forms.Label lblNameTitle;
-        private System.Windows.Forms.Label lblGenderTitle;
-        private System.Windows.Forms.Label lblAddressTitle;
-        private System.Windows.Forms.Label lblDOBTitle;
-        private System.Windows.Forms.Label lblPhoneTitle;
-        private System.Windows.Forms.Label lblEmailTitle;
-        private System.Windows.Forms.Label lblPasswordTitle;
-        private System.Windows.Forms.Label lblHintTitle;
-        private System.Windows.Forms.Label lblMemberID;
-        private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.Label lblGender;
-        private System.Windows.Forms.Label lblAddress;
-        private System.Windows.Forms.Label lblDOB;
-        private System.Windows.Forms.Label lblPhone;
-        private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.Label lblPassword;
-        private System.Windows.Forms.Label lblHint;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtMemberID;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtGender;
+        private System.Windows.Forms.TextBox txtDOB;
+        private System.Windows.Forms.TextBox txtPhone;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.TextBox txtHint;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Button btnClose;
     }
-
-    #endregion
 }
+
+
+#endregion
