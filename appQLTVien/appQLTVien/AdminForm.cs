@@ -38,23 +38,20 @@ namespace appQLTVien
         {
             Button clickedButton = sender as Button;
 
-            
             if (selectedButton != null)
             {
                 selectedButton.BackColor = Color.FromArgb(200, 235, 215);
             }
 
-            
             if (clickedButton == selectedButton)
             {
-                clickedButton.BackColor = Color.FromArgb(200, 235, 215); 
-                selectedButton = null; 
+                clickedButton.BackColor = Color.FromArgb(200, 235, 215);
+                selectedButton = null;
             }
             else
             {
-                
-                clickedButton.BackColor = Color.FromArgb(160, 200, 180); 
-                selectedButton = clickedButton; 
+                clickedButton.BackColor = Color.FromArgb(160, 200, 180);
+                selectedButton = clickedButton;
             }
         }
 
@@ -62,29 +59,25 @@ namespace appQLTVien
         {
             Button clickedButton = sender as Button;
 
-            // Khôi phục màu nền của nút trước đó (nếu có)
             if (selectedButton1 != null)
             {
-                selectedButton1.BackColor = Color.FromArgb(200, 235, 215); 
+                selectedButton1.BackColor = Color.FromArgb(200, 235, 215);
             }
 
-            
             if (clickedButton == selectedButton1)
             {
-                clickedButton.BackColor = Color.FromArgb(200, 235, 215); 
-                selectedButton1 = null; 
+                clickedButton.BackColor = Color.FromArgb(200, 235, 215);
+                selectedButton1 = null;
             }
             else
             {
-                
-                clickedButton.BackColor = Color.FromArgb(160, 200, 180); 
-                selectedButton1 = clickedButton; // Lưu nút đang được chọn
+                clickedButton.BackColor = Color.FromArgb(160, 200, 180);
+                selectedButton1 = clickedButton;
             }
         }
+
         private void btnBookManagement_Click(object sender, EventArgs e)
         {
-            
-
             isBookSubMenuVisible = !isBookSubMenuVisible;
             btnAddBook.Visible = isBookSubMenuVisible;
             btnEditBook.Visible = isBookSubMenuVisible;
@@ -173,7 +166,6 @@ namespace appQLTVien
             btnBorrowBook.Visible = isBorrowSubMenuVisible;
             btnReturnBook.Visible = isBorrowSubMenuVisible;
             btnExportBorrow.Visible = isBorrowSubMenuVisible;
-            
 
             UpdateBorrowSubMenu();
         }
@@ -186,10 +178,8 @@ namespace appQLTVien
                 btnBorrowBook.Location = new Point(20, baseY);
                 btnReturnBook.Location = new Point(20, baseY + btnBorrowBook.Height + 5);
                 btnExportBorrow.Location = new Point(20, baseY + (btnBorrowBook.Height + 5) * 2);
-               
 
-                
-                int nextY = btnExportBorrow.Location.Y + btnExportBorrow.Height + 10; 
+                int nextY = btnExportBorrow.Location.Y + btnExportBorrow.Height + 10;
                 btnPenaltyFeeManagement.Location = new Point(0, nextY);
                 btnLogout.Location = new Point(0, nextY + btnPenaltyFeeManagement.Height + 5);
             }
@@ -226,6 +216,7 @@ namespace appQLTVien
             isPenaltySubMenuVisible = !isPenaltySubMenuVisible;
             btnAddPenalty.Visible = isPenaltySubMenuVisible;
             btnExportPenalty.Visible = isPenaltySubMenuVisible;
+            btnEditPenalty.Visible = isPenaltySubMenuVisible;
 
             UpdatePenaltySubMenu();
         }
@@ -237,15 +228,16 @@ namespace appQLTVien
             {
                 btnAddPenalty.Location = new Point(20, baseY);
                 btnExportPenalty.Location = new Point(20, baseY + btnAddPenalty.Height + 5);
+                btnEditPenalty.Location = new Point(20, baseY + (btnAddPenalty.Height + 5) * 2);
 
-                int nextY = btnExportPenalty.Location.Y + btnExportPenalty.Height + 10;
+                int nextY = btnEditPenalty.Location.Y + btnEditPenalty.Height + 10;
                 btnLogout.Location = new Point(0, nextY);
             }
             else
             {
                 if (isBorrowSubMenuVisible)
                 {
-                    int nextY = btnExportBorrow.Location.Y + btnExportBorrow.Height + 10; 
+                    int nextY = btnExportBorrow.Location.Y + btnExportBorrow.Height + 10;
                     btnPenaltyFeeManagement.Location = new Point(0, nextY);
                     btnLogout.Location = new Point(0, nextY + btnPenaltyFeeManagement.Height + 5);
                 }
@@ -334,8 +326,6 @@ namespace appQLTVien
             LoadUserControl(new ExportBorrow());
         }
 
-       
-
         private void btnAddPenalty_Click(object sender, EventArgs e)
         {
             LoadUserControl(new AddPenaltyC());
@@ -346,6 +336,9 @@ namespace appQLTVien
             LoadUserControl(new ExportPenaltyC());
         }
 
-        
+        private void btnEditPenalty_Click(object sender, EventArgs e)
+        {
+            LoadUserControl(new EditpenaltyC());
+        }
     }
 }

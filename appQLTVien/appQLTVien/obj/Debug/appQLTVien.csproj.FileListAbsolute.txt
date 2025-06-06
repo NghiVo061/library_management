@@ -31,3 +31,5 @@ C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\D
 C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.ForgotPasswordForm.resources
 C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.LoginForm.resources
 C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.MemberInfoForm.resources
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.EditpenaltyC.resources
+C:\Users\Acer\source\repos\appTT2\library_management\appQLTVien\appQLTVien\obj\Debug\appQLTVien.SearchPenaltyForm.resources

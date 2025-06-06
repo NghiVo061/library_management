@@ -124,6 +124,12 @@
     <Compile Include="EditMemberC.Designer.cs">
       <DependentUpon>EditMemberC.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditpenaltyC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditpenaltyC.Designer.cs">
+      <DependentUpon>EditpenaltyC.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditProfileC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -179,6 +185,12 @@
     </Compile>
     <Compile Include="SearchBookC.Designer.cs">
       <DependentUpon>SearchBookC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchPenaltyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchPenaltyForm.Designer.cs">
+      <DependentUpon>SearchPenaltyForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UserForm.cs">
       <SubType>Form</SubType>
@@ -240,6 +252,9 @@
     <EmbeddedResource Include="EditMemberC.resx">
       <DependentUpon>EditMemberC.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditpenaltyC.resx">
+      <DependentUpon>EditpenaltyC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditProfileC.resx">
       <DependentUpon>EditProfileC.cs</DependentUpon>
     </EmbeddedResource>
@@ -281,6 +296,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SearchBookC.resx">
       <DependentUpon>SearchBookC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchPenaltyForm.resx">
+      <DependentUpon>SearchPenaltyForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewProfileC.resx">
       <DependentUpon>ViewProfileC.cs</DependentUpon>

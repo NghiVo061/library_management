@@ -29,9 +29,9 @@ namespace appQLTVien
         private System.Windows.Forms.Button btnBorrowBook;
         private System.Windows.Forms.Button btnReturnBook;
         private System.Windows.Forms.Button btnExportBorrow;
-       
         private System.Windows.Forms.Button btnAddPenalty;
         private System.Windows.Forms.Button btnExportPenalty;
+        private System.Windows.Forms.Button btnEditPenalty;
 
         protected override void Dispose(bool disposing)
         {
@@ -65,9 +65,9 @@ namespace appQLTVien
             this.btnBorrowBook = new System.Windows.Forms.Button();
             this.btnReturnBook = new System.Windows.Forms.Button();
             this.btnExportBorrow = new System.Windows.Forms.Button();
-           
             this.btnAddPenalty = new System.Windows.Forms.Button();
             this.btnExportPenalty = new System.Windows.Forms.Button();
+            this.btnEditPenalty = new System.Windows.Forms.Button();
             this.panelContent = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
@@ -94,9 +94,9 @@ namespace appQLTVien
             this.panelMenu.Controls.Add(this.btnBorrowBook);
             this.panelMenu.Controls.Add(this.btnReturnBook);
             this.panelMenu.Controls.Add(this.btnExportBorrow);
-            
             this.panelMenu.Controls.Add(this.btnAddPenalty);
             this.panelMenu.Controls.Add(this.btnExportPenalty);
+            this.panelMenu.Controls.Add(this.btnEditPenalty);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
@@ -457,10 +457,6 @@ namespace appQLTVien
             this.btnExportBorrow.Click += new System.EventHandler(this.Button1_Click);
             this.btnExportBorrow.Click += new System.EventHandler(this.btnExportBorrow_Click);
             // 
-            // btnExtendBorrow
-            // 
-            
-            // 
             // btnAddPenalty
             // 
             this.btnAddPenalty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
@@ -500,6 +496,26 @@ namespace appQLTVien
             this.btnExportPenalty.Visible = false;
             this.btnExportPenalty.Click += new System.EventHandler(this.Button1_Click);
             this.btnExportPenalty.Click += new System.EventHandler(this.btnExportPenalty_Click);
+            // 
+            // btnEditPenalty
+            // 
+            this.btnEditPenalty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
+            this.btnEditPenalty.FlatAppearance.BorderSize = 0;
+            this.btnEditPenalty.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(220)))), ((int)(((byte)(200)))));
+            this.btnEditPenalty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditPenalty.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnEditPenalty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(100)))), ((int)(((byte)(90)))));
+            this.btnEditPenalty.Location = new System.Drawing.Point(20, 880);
+            this.btnEditPenalty.Name = "btnEditPenalty";
+            this.btnEditPenalty.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnEditPenalty.Size = new System.Drawing.Size(230, 40);
+            this.btnEditPenalty.TabIndex = 21;
+            this.btnEditPenalty.Text = "  Sửa phí phạt";
+            this.btnEditPenalty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditPenalty.UseVisualStyleBackColor = false;
+            this.btnEditPenalty.Visible = false;
+            this.btnEditPenalty.Click += new System.EventHandler(this.Button1_Click);
+            this.btnEditPenalty.Click += new System.EventHandler(this.btnEditPenalty_Click);
             // 
             // panelContent
             // 
