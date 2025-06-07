@@ -37,7 +37,6 @@
             this.Name = "AddPenaltyC";
             this.Size = new System.Drawing.Size(788, 476);
             this.ResumeLayout(false);
-
         }
 
         #endregion

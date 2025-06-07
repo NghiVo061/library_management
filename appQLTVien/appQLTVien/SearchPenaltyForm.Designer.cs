@@ -94,22 +94,6 @@ namespace appQLTVien
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // lblPenaltyIDResult
-            // 
-            this.lblPenaltyIDResult.AutoSize = true;
-            this.lblPenaltyIDResult.Location = new System.Drawing.Point(20, 120);
-            this.lblPenaltyIDResult.Name = "lblPenaltyIDResult";
-            this.lblPenaltyIDResult.Size = new System.Drawing.Size(79, 16);
-            this.lblPenaltyIDResult.TabIndex = 2;
-            this.lblPenaltyIDResult.Text = "Mã phí phạt:";
-            // 
-            // txtPenaltyIDResult
-            // 
-            this.txtPenaltyIDResult.Location = new System.Drawing.Point(20, 145);
-            this.txtPenaltyIDResult.Name = "txtPenaltyIDResult";
-            this.txtPenaltyIDResult.Size = new System.Drawing.Size(200, 22);
-            this.txtPenaltyIDResult.TabIndex = 2;
-            // 
             // lblMemberID
             // 
             this.lblMemberID.AutoSize = true;
@@ -247,6 +231,6 @@ namespace appQLTVien
 
         }
 
-        
+
     }
 }
