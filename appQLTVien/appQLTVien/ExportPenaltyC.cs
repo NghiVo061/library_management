@@ -1,31 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿
+using System;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace appQLTVien
 {
     public partial class ExportPenaltyC : UserControl
     {
-        TextBox txtMemberID;
-        DateTimePicker dtFrom, dtTo;
-        Button btnExport;
-        DataGridView dgvResult;
+        ComboBox cboMemberID; DateTimePicker dtFrom, dtTo; Button btnExport; DataGridView dgvResult;
+
+        
 
         public ExportPenaltyC()
         {
             InitializeComponent();
             InitControls();
+            LoadMembers();
         }
 
         private void InitControls()
         {
-            this.Size = new Size(1000, 500);  
+            this.Size = new Size(1000, 500);
 
             Label title = new Label()
             {
@@ -36,7 +33,7 @@ namespace appQLTVien
             };
 
             Label lblMemberID = new Label() { Text = "Mã thành viên:", Location = new Point(50, 80), AutoSize = true };
-            txtMemberID = new TextBox() { Location = new Point(160, 76), Width = 200 };
+            cboMemberID = new ComboBox() { Location = new Point(160, 76), Width = 200, DropDownStyle = ComboBoxStyle.DropDownList };
 
             Label lblFrom = new Label() { Text = "Từ ngày:", Location = new Point(400, 80), AutoSize = true };
             dtFrom = new DateTimePicker() { Location = new Point(470, 76), Width = 150 };
@@ -67,25 +64,43 @@ namespace appQLTVien
 
             this.Controls.AddRange(new Control[]
             {
-                title, lblMemberID, txtMemberID,
-                lblFrom, dtFrom, lblTo, dtTo,
-                btnExport, dgvResult
+            title, lblMemberID, cboMemberID,
+            lblFrom, dtFrom, lblTo, dtTo,
+            btnExport, dgvResult
             });
+        }
+
+        private void LoadMembers()
+        {
+            
         }
 
         private void BtnExport_Click(object sender, EventArgs e)
         {
-            
+            string memberId = cboMemberID.SelectedItem?.ToString();
+            DateTime fromDate = dtFrom.Value;
+            DateTime toDate = dtTo.Value;
+
+            if (string.IsNullOrEmpty(memberId))
+            {
+                MessageBox.Show("Vui lòng chọn mã thành viên!");
+                return;
+            }
+
             DataTable table = new DataTable();
             table.Columns.Add("Mã phiếu phạt");
             table.Columns.Add("Mã thành viên");
             table.Columns.Add("Mã sách");
-            table.Columns.Add("Tên sách");
-            table.Columns.Add("Ngày mượn");
+            table.Columns.Add("Số ngày trễ");
             table.Columns.Add("Phí phạt");
             table.Columns.Add("Tình trạng");
+            table.Columns.Add("Trạng thái thanh toán");
+            table.Columns.Add("Ngày phạt");
+
+            
 
             dgvResult.DataSource = table;
         }
     }
+
 }

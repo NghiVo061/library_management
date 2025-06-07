@@ -7,9 +7,6 @@ namespace appQLTVien
         private System.ComponentModel.IContainer components = null;
 
         private System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.Label lblPenaltyID;
-        private System.Windows.Forms.TextBox txtPenaltyID;
-        private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Label lblPenaltyIDResult;
         private System.Windows.Forms.TextBox txtPenaltyIDResult;
         private System.Windows.Forms.Label lblMemberID;
@@ -38,9 +35,6 @@ namespace appQLTVien
         private void InitializeComponent()
         {
             this.lblTitle = new System.Windows.Forms.Label();
-            this.lblPenaltyID = new System.Windows.Forms.Label();
-            this.txtPenaltyID = new System.Windows.Forms.TextBox();
-            this.btnSearch = new System.Windows.Forms.Button();
             this.lblPenaltyIDResult = new System.Windows.Forms.Label();
             this.txtPenaltyIDResult = new System.Windows.Forms.TextBox();
             this.lblMemberID = new System.Windows.Forms.Label();
@@ -62,37 +56,25 @@ namespace appQLTVien
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.lblTitle.Location = new System.Drawing.Point(20, 20);
+            this.lblTitle.Location = new System.Drawing.Point(17, 80);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(333, 32);
+            this.lblTitle.Size = new System.Drawing.Size(340, 32);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Chỉnh sửa thông tin phí phạt";
             // 
-            // lblPenaltyID
+            // lblPenaltyIDResult
             // 
-            this.lblPenaltyID.AutoSize = true;
-            this.lblPenaltyID.Location = new System.Drawing.Point(20, 60);
-            this.lblPenaltyID.Name = "lblPenaltyID";
-            this.lblPenaltyID.Size = new System.Drawing.Size(115, 16);
-            this.lblPenaltyID.TabIndex = 1;
-            this.lblPenaltyID.Text = "Nhập mã phí phạt:";
+            this.lblPenaltyIDResult.Location = new System.Drawing.Point(0, 0);
+            this.lblPenaltyIDResult.Name = "lblPenaltyIDResult";
+            this.lblPenaltyIDResult.Size = new System.Drawing.Size(100, 23);
+            this.lblPenaltyIDResult.TabIndex = 2;
             // 
-            // txtPenaltyID
+            // txtPenaltyIDResult
             // 
-            this.txtPenaltyID.Location = new System.Drawing.Point(20, 85);
-            this.txtPenaltyID.Name = "txtPenaltyID";
-            this.txtPenaltyID.Size = new System.Drawing.Size(200, 22);
-            this.txtPenaltyID.TabIndex = 0;
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.Location = new System.Drawing.Point(230, 85);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(80, 25);
-            this.btnSearch.TabIndex = 1;
-            this.btnSearch.Text = "Tìm kiếm";
-            this.btnSearch.UseVisualStyleBackColor = true;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            this.txtPenaltyIDResult.Location = new System.Drawing.Point(0, 0);
+            this.txtPenaltyIDResult.Name = "txtPenaltyIDResult";
+            this.txtPenaltyIDResult.Size = new System.Drawing.Size(100, 22);
+            this.txtPenaltyIDResult.TabIndex = 3;
             // 
             // lblMemberID
             // 
@@ -205,9 +187,6 @@ namespace appQLTVien
             // 
             this.ClientSize = new System.Drawing.Size(400, 530);
             this.Controls.Add(this.lblTitle);
-            this.Controls.Add(this.lblPenaltyID);
-            this.Controls.Add(this.txtPenaltyID);
-            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.lblPenaltyIDResult);
             this.Controls.Add(this.txtPenaltyIDResult);
             this.Controls.Add(this.lblMemberID);

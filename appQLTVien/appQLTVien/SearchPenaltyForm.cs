@@ -17,10 +17,7 @@ namespace appQLTVien
             MessageBox.Show($"Tìm kiếm phí phạt với ID: {penaltyID}");
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
-        {
-            SearchPenaltyDetails(txtPenaltyID.Text);
-        }
+        
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
