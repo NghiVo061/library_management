@@ -1,11 +1,11 @@
 ﻿namespace appQLTVien
 {
     partial class EditpenaltyC
-    {
-        /// <summary> 
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+    { ///
+
+       private System.ComponentModel.IContainer components = null;
+
+
 
         /// <summary> 
         /// Clean up any resources being used.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.lblFineID = new System.Windows.Forms.Label();
-            this.txtFineID = new System.Windows.Forms.TextBox();
+            this.cboFineID = new System.Windows.Forms.ComboBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -42,12 +42,14 @@
             this.lblFineID.TabIndex = 0;
             this.lblFineID.Text = "Nhập mã phiếu phạt";
             // 
-            // txtFineID
+            // cboFineID
             // 
-            this.txtFineID.Location = new System.Drawing.Point(330, 154);
-            this.txtFineID.Name = "txtFineID";
-            this.txtFineID.Size = new System.Drawing.Size(239, 22);
-            this.txtFineID.TabIndex = 1;
+            this.cboFineID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboFineID.FormattingEnabled = true;
+            this.cboFineID.Location = new System.Drawing.Point(330, 154);
+            this.cboFineID.Name = "cboFineID";
+            this.cboFineID.Size = new System.Drawing.Size(239, 24);
+            this.cboFineID.TabIndex = 1;
             // 
             // btnSearch
             // 
@@ -64,7 +66,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnSearch);
-            this.Controls.Add(this.txtFineID);
+            this.Controls.Add(this.cboFineID);
             this.Controls.Add(this.lblFineID);
             this.Name = "EditpenaltyC";
             this.Size = new System.Drawing.Size(1475, 624);
@@ -76,7 +78,8 @@
         #endregion
 
         private System.Windows.Forms.Label lblFineID;
-        private System.Windows.Forms.TextBox txtFineID;
+        private System.Windows.Forms.ComboBox cboFineID;
         private System.Windows.Forms.Button btnSearch;
     }
+
 }

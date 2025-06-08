@@ -7,9 +7,6 @@ namespace appQLTVien
         private System.ComponentModel.IContainer components = null;
 
         private System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.Label lblPenaltyID;
-        private System.Windows.Forms.TextBox txtPenaltyID;
-        private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Label lblPenaltyIDResult;
         private System.Windows.Forms.TextBox txtPenaltyIDResult;
         private System.Windows.Forms.Label lblMemberID;
@@ -23,7 +20,7 @@ namespace appQLTVien
         private System.Windows.Forms.Label lblBookStatus;
         private System.Windows.Forms.TextBox txtBookStatus;
         private System.Windows.Forms.Label lblPaymentStatus;
-        private System.Windows.Forms.TextBox txtPaymentStatus;
+        private System.Windows.Forms.ComboBox cboPaymentStatus;
         private System.Windows.Forms.Button btnConfirm;
 
         protected override void Dispose(bool disposing)
@@ -38,9 +35,6 @@ namespace appQLTVien
         private void InitializeComponent()
         {
             this.lblTitle = new System.Windows.Forms.Label();
-            this.lblPenaltyID = new System.Windows.Forms.Label();
-            this.txtPenaltyID = new System.Windows.Forms.TextBox();
-            this.btnSearch = new System.Windows.Forms.Button();
             this.lblPenaltyIDResult = new System.Windows.Forms.Label();
             this.txtPenaltyIDResult = new System.Windows.Forms.TextBox();
             this.lblMemberID = new System.Windows.Forms.Label();
@@ -54,7 +48,7 @@ namespace appQLTVien
             this.lblBookStatus = new System.Windows.Forms.Label();
             this.txtBookStatus = new System.Windows.Forms.TextBox();
             this.lblPaymentStatus = new System.Windows.Forms.Label();
-            this.txtPaymentStatus = new System.Windows.Forms.TextBox();
+            this.cboPaymentStatus = new System.Windows.Forms.ComboBox();
             this.btnConfirm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -62,37 +56,28 @@ namespace appQLTVien
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.lblTitle.Location = new System.Drawing.Point(20, 20);
+            this.lblTitle.Location = new System.Drawing.Point(17, 80);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(333, 32);
+            this.lblTitle.Size = new System.Drawing.Size(340, 32);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Chỉnh sửa thông tin phí phạt";
             // 
-            // lblPenaltyID
+            // lblPenaltyIDResult
             // 
-            this.lblPenaltyID.AutoSize = true;
-            this.lblPenaltyID.Location = new System.Drawing.Point(20, 60);
-            this.lblPenaltyID.Name = "lblPenaltyID";
-            this.lblPenaltyID.Size = new System.Drawing.Size(115, 16);
-            this.lblPenaltyID.TabIndex = 1;
-            this.lblPenaltyID.Text = "Nhập mã phí phạt:";
+            this.lblPenaltyIDResult.AutoSize = true;
+            this.lblPenaltyIDResult.Location = new System.Drawing.Point(20, 130);
+            this.lblPenaltyIDResult.Name = "lblPenaltyIDResult";
+            this.lblPenaltyIDResult.Size = new System.Drawing.Size(92, 16);
+            this.lblPenaltyIDResult.TabIndex = 2;
+            this.lblPenaltyIDResult.Text = "Mã phiếu phạt:";
             // 
-            // txtPenaltyID
+            // txtPenaltyIDResult
             // 
-            this.txtPenaltyID.Location = new System.Drawing.Point(20, 85);
-            this.txtPenaltyID.Name = "txtPenaltyID";
-            this.txtPenaltyID.Size = new System.Drawing.Size(200, 22);
-            this.txtPenaltyID.TabIndex = 0;
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.Location = new System.Drawing.Point(230, 85);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(80, 25);
-            this.btnSearch.TabIndex = 1;
-            this.btnSearch.Text = "Tìm kiếm";
-            this.btnSearch.UseVisualStyleBackColor = true;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            this.txtPenaltyIDResult.Location = new System.Drawing.Point(130, 130);
+            this.txtPenaltyIDResult.Name = "txtPenaltyIDResult";
+            this.txtPenaltyIDResult.Size = new System.Drawing.Size(200, 22);
+            this.txtPenaltyIDResult.TabIndex = 3;
+            this.txtPenaltyIDResult.ReadOnly = true;
             // 
             // lblMemberID
             // 
@@ -105,10 +90,11 @@ namespace appQLTVien
             // 
             // txtMemberID
             // 
-            this.txtMemberID.Location = new System.Drawing.Point(20, 195);
+            this.txtMemberID.Location = new System.Drawing.Point(130, 170);
             this.txtMemberID.Name = "txtMemberID";
             this.txtMemberID.Size = new System.Drawing.Size(200, 22);
             this.txtMemberID.TabIndex = 3;
+            this.txtMemberID.ReadOnly = true;
             // 
             // lblBookID
             // 
@@ -121,10 +107,11 @@ namespace appQLTVien
             // 
             // txtBookID
             // 
-            this.txtBookID.Location = new System.Drawing.Point(20, 245);
+            this.txtBookID.Location = new System.Drawing.Point(130, 220);
             this.txtBookID.Name = "txtBookID";
             this.txtBookID.Size = new System.Drawing.Size(200, 22);
             this.txtBookID.TabIndex = 4;
+            this.txtBookID.ReadOnly = true;
             // 
             // lblLateDays
             // 
@@ -137,10 +124,11 @@ namespace appQLTVien
             // 
             // txtLateDays
             // 
-            this.txtLateDays.Location = new System.Drawing.Point(20, 295);
+            this.txtLateDays.Location = new System.Drawing.Point(130, 270);
             this.txtLateDays.Name = "txtLateDays";
             this.txtLateDays.Size = new System.Drawing.Size(200, 22);
             this.txtLateDays.TabIndex = 5;
+            this.txtLateDays.ReadOnly = true;
             // 
             // lblPenaltyAmount
             // 
@@ -153,10 +141,11 @@ namespace appQLTVien
             // 
             // txtPenaltyAmount
             // 
-            this.txtPenaltyAmount.Location = new System.Drawing.Point(20, 345);
+            this.txtPenaltyAmount.Location = new System.Drawing.Point(130, 320);
             this.txtPenaltyAmount.Name = "txtPenaltyAmount";
             this.txtPenaltyAmount.Size = new System.Drawing.Size(200, 22);
             this.txtPenaltyAmount.TabIndex = 6;
+            this.txtPenaltyAmount.ReadOnly = true;
             // 
             // lblBookStatus
             // 
@@ -169,10 +158,11 @@ namespace appQLTVien
             // 
             // txtBookStatus
             // 
-            this.txtBookStatus.Location = new System.Drawing.Point(20, 395);
+            this.txtBookStatus.Location = new System.Drawing.Point(130, 370);
             this.txtBookStatus.Name = "txtBookStatus";
             this.txtBookStatus.Size = new System.Drawing.Size(200, 22);
             this.txtBookStatus.TabIndex = 7;
+            this.txtBookStatus.ReadOnly = true;
             // 
             // lblPaymentStatus
             // 
@@ -183,17 +173,19 @@ namespace appQLTVien
             this.lblPaymentStatus.TabIndex = 8;
             this.lblPaymentStatus.Text = "Tình trạng thanh toán:";
             // 
-            // txtPaymentStatus
+            // cboPaymentStatus
             // 
-            this.txtPaymentStatus.Location = new System.Drawing.Point(20, 445);
-            this.txtPaymentStatus.Name = "txtPaymentStatus";
-            this.txtPaymentStatus.Size = new System.Drawing.Size(200, 22);
-            this.txtPaymentStatus.TabIndex = 8;
+            this.cboPaymentStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboPaymentStatus.FormattingEnabled = true;
+            this.cboPaymentStatus.Location = new System.Drawing.Point(130, 420);
+            this.cboPaymentStatus.Name = "cboPaymentStatus";
+            this.cboPaymentStatus.Size = new System.Drawing.Size(200, 24);
+            this.cboPaymentStatus.TabIndex = 9;
             // 
             // btnConfirm
             // 
             this.btnConfirm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
-            this.btnConfirm.Location = new System.Drawing.Point(20, 480);
+            this.btnConfirm.Location = new System.Drawing.Point(130, 480);
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.Size = new System.Drawing.Size(80, 25);
             this.btnConfirm.TabIndex = 9;
@@ -205,9 +197,6 @@ namespace appQLTVien
             // 
             this.ClientSize = new System.Drawing.Size(400, 530);
             this.Controls.Add(this.lblTitle);
-            this.Controls.Add(this.lblPenaltyID);
-            this.Controls.Add(this.txtPenaltyID);
-            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.lblPenaltyIDResult);
             this.Controls.Add(this.txtPenaltyIDResult);
             this.Controls.Add(this.lblMemberID);
@@ -221,16 +210,14 @@ namespace appQLTVien
             this.Controls.Add(this.lblBookStatus);
             this.Controls.Add(this.txtBookStatus);
             this.Controls.Add(this.lblPaymentStatus);
-            this.Controls.Add(this.txtPaymentStatus);
+            this.Controls.Add(this.cboPaymentStatus);
             this.Controls.Add(this.btnConfirm);
             this.Name = "SearchPenaltyForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sửa thông tin phí phạt";
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
-
-
     }
+
 }
