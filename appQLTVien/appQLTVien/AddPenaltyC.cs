@@ -39,7 +39,7 @@ namespace appQLTVien
             cboMemberID = new ComboBox() { Location = new Point(150, 88), Width = 200, DropDownStyle = ComboBoxStyle.DropDownList };
             cboMemberID.SelectedIndexChanged += (s, e) => LoadBooksForMember();
 
-            btnLoad = new Button() { Text = "Tải thông tin", Location = new Point(360, 88), Width = 120 };
+            btnLoad = new Button() { Text = "Tải thông tin", Location = new Point(260, 330), Width = 120 }; // Di chuyển cạnh btnCalculate
             btnLoad.Click += (s, e) => LoadPenaltyInfo();
 
             Label lblBook = new Label() { Text = "Mã sách:", Location = new Point(20, 130) };
@@ -81,15 +81,15 @@ namespace appQLTVien
             };
 
             this.Controls.AddRange(new Control[] {
-        title, lblFineID, txtFineID,
-        lblMember, cboMemberID, btnLoad,
-        lblBook, cboIDbook,
-        lblCreateDate, txtCreateDate,
-        lblDaysLate, txtLate,
-        lblIssue, cboIssue,
-        lblPaymentStatus, cboPaymentStatus,
-        btnCalculate, lblTotalFine
-    });
+    title, lblFineID, txtFineID,
+    lblMember, cboMemberID, btnLoad,
+    lblBook, cboIDbook,
+    lblCreateDate, txtCreateDate,
+    lblDaysLate, txtLate,
+    lblIssue, cboIssue,
+    lblPaymentStatus, cboPaymentStatus,
+    btnCalculate, lblTotalFine
+});
 
             // Tự động tính số ngày trễ khi chọn sách
             cboIDbook.SelectedIndexChanged += (s, e) => CalculateLateDays();
@@ -189,10 +189,10 @@ namespace appQLTVien
                 {
                     conn.Open();
                     string query = @"
-                SELECT ExpectedReturnDate, Quantity
-                FROM BorrowReceipts
-                WHERE MemberID = @memberId AND BookID = @bookId
-                ORDER BY BorrowDate DESC LIMIT 1";
+            SELECT ExpectedReturnDate, Quantity
+            FROM BorrowReceipts
+            WHERE MemberID = @memberId AND BookID = @bookId
+            ORDER BY BorrowDate DESC LIMIT 1";
                     MySqlCommand cmd = new MySqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@memberId", memberId);
                     cmd.Parameters.AddWithValue("@bookId", bookId);
@@ -283,9 +283,9 @@ namespace appQLTVien
                 {
                     conn.Open();
                     string updateQuery = @"
-                UPDATE PenaltyReceipts 
-                SET PenaltyAmount = @penaltyAmount, BookStatus = @bookStatus, PaymentStatus = @paymentStatus 
-                WHERE PenaltyID = @penaltyId";
+            UPDATE PenaltyReceipts 
+            SET PenaltyAmount = @penaltyAmount, BookStatus = @bookStatus, PaymentStatus = @paymentStatus 
+            WHERE PenaltyID = @penaltyId";
                     MySqlCommand cmdUpdate = new MySqlCommand(updateQuery, conn);
                     cmdUpdate.Parameters.AddWithValue("@penaltyId", penaltyId);
                     cmdUpdate.Parameters.AddWithValue("@penaltyAmount", fine);
@@ -297,8 +297,8 @@ namespace appQLTVien
                     {
                         // Nếu không tìm thấy bản ghi, chèn mới
                         string insertQuery = @"
-                    INSERT INTO PenaltyReceipts (PenaltyID, MemberID, BookID, LateDays, PenaltyAmount, BookStatus, PaymentStatus, PenaltyDate)
-                    VALUES (@penaltyId, @memberId, @bookId, @lateDays, @penaltyAmount, @bookStatus, @paymentStatus, @penaltyDate)";
+                INSERT INTO PenaltyReceipts (PenaltyID, MemberID, BookID, LateDays, PenaltyAmount, BookStatus, PaymentStatus, PenaltyDate)
+                VALUES (@penaltyId, @memberId, @bookId, @lateDays, @penaltyAmount, @bookStatus, @paymentStatus, @penaltyDate)";
                         MySqlCommand cmdInsert = new MySqlCommand(insertQuery, conn);
                         cmdInsert.Parameters.AddWithValue("@penaltyId", penaltyId);
                         cmdInsert.Parameters.AddWithValue("@memberId", cboMemberID.SelectedItem.ToString());
@@ -337,10 +337,10 @@ namespace appQLTVien
                     conn.Open();
                     // Kiểm tra trong PenaltyReceipts trước
                     string queryPenalty = @"
-                SELECT p.LateDays, p.PenaltyAmount, p.BookStatus, p.PaymentStatus, p.PenaltyDate
-                FROM PenaltyReceipts p
-                WHERE p.MemberID = @memberId AND p.BookID = @bookId
-                ORDER BY p.PenaltyDate DESC LIMIT 1";
+            SELECT p.LateDays, p.PenaltyAmount, p.BookStatus, p.PaymentStatus, p.PenaltyDate
+            FROM PenaltyReceipts p
+            WHERE p.MemberID = @memberId AND p.BookID = @bookId
+            ORDER BY p.PenaltyDate DESC LIMIT 1";
                     MySqlCommand cmdPenalty = new MySqlCommand(queryPenalty, conn);
                     cmdPenalty.Parameters.AddWithValue("@memberId", memberId);
                     cmdPenalty.Parameters.AddWithValue("@bookId", bookId);
@@ -362,10 +362,10 @@ namespace appQLTVien
                             // Nếu không tìm thấy trong PenaltyReceipts, lấy từ BorrowReceipts
                             readerPenalty.Close();
                             string queryBorrow = @"
-                        SELECT ExpectedReturnDate, Quantity
-                        FROM BorrowReceipts
-                        WHERE MemberID = @memberId AND BookID = @bookId
-                        ORDER BY BorrowDate DESC LIMIT 1";
+                    SELECT ExpectedReturnDate, Quantity
+                    FROM BorrowReceipts
+                    WHERE MemberID = @memberId AND BookID = @bookId
+                    ORDER BY BorrowDate DESC LIMIT 1";
                             MySqlCommand cmdBorrow = new MySqlCommand(queryBorrow, conn);
                             cmdBorrow.Parameters.AddWithValue("@memberId", memberId);
                             cmdBorrow.Parameters.AddWithValue("@bookId", bookId);
@@ -387,8 +387,8 @@ namespace appQLTVien
                                     // Chèn dữ liệu vào PenaltyReceipts
                                     readerBorrow.Close();
                                     string insertQuery = @"
-                                INSERT INTO PenaltyReceipts (PenaltyID, MemberID, BookID, LateDays, PenaltyAmount, BookStatus, PaymentStatus, PenaltyDate)
-                                VALUES (@penaltyId, @memberId, @bookId, @lateDays, 0, @bookStatus, @paymentStatus, @penaltyDate)";
+                            INSERT INTO PenaltyReceipts (PenaltyID, MemberID, BookID, LateDays, PenaltyAmount, BookStatus, PaymentStatus, PenaltyDate)
+                            VALUES (@penaltyId, @memberId, @bookId, @lateDays, 0, @bookStatus, @paymentStatus, @penaltyDate)";
                                     MySqlCommand cmdInsert = new MySqlCommand(insertQuery, conn);
                                     cmdInsert.Parameters.AddWithValue("@penaltyId", txtFineID.Text);
                                     cmdInsert.Parameters.AddWithValue("@memberId", memberId);

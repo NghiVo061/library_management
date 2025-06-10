@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\",
+  "WorkspaceRootPath": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appqltvien\\searchpenaltyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\searchpenaltyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appqltvien\\editpenaltyc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\editpenaltyc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|c:\\users\\van\\documents\\luu truong van\\chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appqltvien\\appqltvien\\searchpenaltyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\searchpenaltyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appqltvien\\editpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\editpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|c:\\users\\van\\documents\\luu truong van\\chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appqltvien\\appqltvien\\editpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\editpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appqltvien\\addpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appqltvien\\addpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\addpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appqltvien\\addpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\addpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appqltvien\\exportpenaltyc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\exportpenaltyc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appqltvien\\addpenaltyc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appqltvien\\addpenaltyc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\addpenaltyc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appqltvien\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appqltvien\\addpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\addpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|c:\\users\\van\\documents\\luu truong van\\chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appqltvien\\appqltvien\\searchpenaltyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\searchpenaltyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appqltvien\\editpenaltyc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\editpenaltyc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appqltvien\\searchpenaltyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\searchpenaltyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appqltvien\\editpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\editpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appqltvien\\editpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\editpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\exportpenaltyc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appqltvien\\exportpenaltyc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\exportpenaltyc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appqltvien\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{1ACFD14B-87A2-453B-9B9D-4FAD45CB7A47}|appQLTVien\\appQLTVien.csproj|solutionrelative:appqltvien\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -61,7 +61,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -85,126 +85,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditpenaltyC.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.cs",
-              "RelativeDocumentMoniker": "appQLTVien\\EditpenaltyC.cs",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.cs [Design]",
-              "RelativeToolTip": "appQLTVien\\EditpenaltyC.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T11:13:59.793Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditpenaltyC.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.Designer.cs",
-              "RelativeDocumentMoniker": "appQLTVien\\EditpenaltyC.Designer.cs",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.Designer.cs",
-              "RelativeToolTip": "appQLTVien\\EditpenaltyC.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T12:11:52.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SearchPenaltyForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\SearchPenaltyForm.Designer.cs",
-              "RelativeDocumentMoniker": "appQLTVien\\SearchPenaltyForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\SearchPenaltyForm.Designer.cs",
-              "RelativeToolTip": "appQLTVien\\SearchPenaltyForm.Designer.cs",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAiwM8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T12:19:01.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SearchPenaltyForm.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\SearchPenaltyForm.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\SearchPenaltyForm.cs",
               "RelativeDocumentMoniker": "appQLTVien\\SearchPenaltyForm.cs",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\SearchPenaltyForm.cs",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\SearchPenaltyForm.cs",
               "RelativeToolTip": "appQLTVien\\SearchPenaltyForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T12:18:46.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "EditpenaltyC.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.cs",
               "RelativeDocumentMoniker": "appQLTVien\\EditpenaltyC.cs",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.cs",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.cs",
               "RelativeToolTip": "appQLTVien\\EditpenaltyC.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T12:11:14.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T12:11:14.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExportPenaltyC.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs",
-              "RelativeDocumentMoniker": "appQLTVien\\ExportPenaltyC.cs",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs",
-              "RelativeToolTip": "appQLTVien\\ExportPenaltyC.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAqwIUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T00:47:38.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExportPenaltyC.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs",
-              "RelativeDocumentMoniker": "appQLTVien\\ExportPenaltyC.cs",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs [Design]",
-              "RelativeToolTip": "appQLTVien\\ExportPenaltyC.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T00:47:34.435Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddPenaltyC.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.Designer.cs",
-              "RelativeDocumentMoniker": "appQLTVien\\AddPenaltyC.Designer.cs",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.Designer.cs",
-              "RelativeToolTip": "appQLTVien\\AddPenaltyC.Designer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T19:28:12.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "AddPenaltyC.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.cs",
               "RelativeDocumentMoniker": "appQLTVien\\AddPenaltyC.cs",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.cs",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.cs",
               "RelativeToolTip": "appQLTVien\\AddPenaltyC.cs",
-              "ViewState": "AgIAAJMBAAAAAAAAAAAqwKUBAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAJUBAAAAAAAAAAAiwKUBAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T19:27:58.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "AddPenaltyC.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.Designer.cs",
+              "RelativeDocumentMoniker": "appQLTVien\\AddPenaltyC.Designer.cs",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.Designer.cs",
+              "RelativeToolTip": "appQLTVien\\AddPenaltyC.Designer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwBgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T19:28:12.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AddPenaltyC.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.cs",
               "RelativeDocumentMoniker": "appQLTVien\\AddPenaltyC.cs",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.cs [Design]",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\AddPenaltyC.cs [Design]",
               "RelativeToolTip": "appQLTVien\\AddPenaltyC.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T19:27:54.49Z",
@@ -212,29 +148,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SearchPenaltyForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\SearchPenaltyForm.Designer.cs",
+              "RelativeDocumentMoniker": "appQLTVien\\SearchPenaltyForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\SearchPenaltyForm.Designer.cs",
+              "RelativeToolTip": "appQLTVien\\SearchPenaltyForm.Designer.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAiwM8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:19:01.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditpenaltyC.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.Designer.cs",
+              "RelativeDocumentMoniker": "appQLTVien\\EditpenaltyC.Designer.cs",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.Designer.cs",
+              "RelativeToolTip": "appQLTVien\\EditpenaltyC.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:11:52.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditpenaltyC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.cs",
+              "RelativeDocumentMoniker": "appQLTVien\\EditpenaltyC.cs",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\EditpenaltyC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:13:59.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExportPenaltyC.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs",
+              "RelativeDocumentMoniker": "appQLTVien\\ExportPenaltyC.cs",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs",
+              "RelativeToolTip": "appQLTVien\\ExportPenaltyC.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAqwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T00:47:38.592Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ExportPenaltyC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs",
+              "RelativeDocumentMoniker": "appQLTVien\\ExportPenaltyC.cs",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T00:47:34.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ExportPenaltyC.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.Designer.cs",
               "RelativeDocumentMoniker": "appQLTVien\\ExportPenaltyC.Designer.cs",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.Designer.cs",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\ExportPenaltyC.Designer.cs",
               "RelativeToolTip": "appQLTVien\\ExportPenaltyC.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAiwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T00:48:36.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T00:48:36.286Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\App.config",
+              "DocumentMoniker": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\App.config",
               "RelativeDocumentMoniker": "appQLTVien\\App.config",
-              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 1\\library_management\\appQLTVien\\appQLTVien\\App.config",
+              "ToolTip": "C:\\Users\\Van\\Documents\\Luu Truong Van\\Chuy\u00EAn \u0111\u1EC1 th\u1EF1c t\u1EBF 2\\library_management\\appQLTVien\\appQLTVien\\App.config",
               "RelativeToolTip": "appQLTVien\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-06T19:25:30.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T19:25:30.895Z"
             },
             {
               "$type": "Document",
@@ -246,8 +238,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\library_management\\appQLTVien\\appQLTVien\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-06T19:24:49.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T19:24:49.333Z"
             }
           ]
         }
